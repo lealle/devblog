@@ -1,0 +1,548 @@
+[
+ {
+  "name": "Algolia",
+  "feed_url": "https://blog.algolia.com/blog/rss.xml",
+  "site_url": "https://blog.algolia.com/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Codelitt",
+  "feed_url": "https://blog.codelitt.com/rss/",
+  "site_url": "https://www.codelitt.com/blog/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "CodeName One",
+  "feed_url": "https://www.codenameone.com/feed",
+  "site_url": "http://www.codenameone.com/blog.html",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Commercetools",
+  "feed_url": "https://techblog.commercetools.com/feed",
+  "site_url": "https://techblog.commercetools.com/",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "Credit Karma",
+  "feed_url": "https://engineering.creditkarma.com/feed",
+  "site_url": "https://engineering.creditkarma.com/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "Crowdfire",
+  "feed_url": "https://crowdfire.engineering/feed",
+  "site_url": "https://crowdfire.engineering/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "Deezer",
+  "feed_url": "https://deezer.io/feed",
+  "site_url": "https://deezer.io/",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "Deliveroo",
+  "feed_url": "https://deliveroo.engineering/feed.xml",
+  "site_url": "https://deliveroo.engineering/",
+  "region": "EN",
+  "reason": 403
+ },
+ {
+  "name": "DoorDash",
+  "feed_url": "https://doordash.engineering/blog/rss",
+  "site_url": "https://doordash.engineering/blog/",
+  "region": "EN",
+  "reason": 403
+ },
+ {
+  "name": "Engine Yard",
+  "feed_url": "https://blog.engineyard.com/rss",
+  "site_url": "https://blog.engineyard.com/",
+  "region": "EN",
+  "reason": "SSLError"
+ },
+ {
+  "name": "Entelo",
+  "feed_url": "https://sourcecode.entelo.com/feed.xml",
+  "site_url": "https://sourcecode.entelo.com/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Envoy",
+  "feed_url": "https://envoy.engineering/feed",
+  "site_url": "https://envoy.engineering/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "Eventbrite",
+  "feed_url": "https://www.eventbrite.com/engineering/feed/",
+  "site_url": "https://www.eventbrite.com/engineering/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Figma",
+  "feed_url": "https://www.figma.com/blog/engineering/feed/atom.xml",
+  "site_url": "",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Galois",
+  "feed_url": "https://galois.com/feed/",
+  "site_url": "https://galois.com/blog/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "GIPHY",
+  "feed_url": "https://engineering.giphy.com/rss",
+  "site_url": "https://engineering.giphy.com/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "GoDaddy",
+  "feed_url": "https://www.godaddy.com/engineering/feed.xml",
+  "site_url": "https://godaddy.github.io/engineering/",
+  "region": "EN",
+  "reason": 403
+ },
+ {
+  "name": "Gusto",
+  "feed_url": "https://engineering.gusto.com/rss/",
+  "site_url": "http://engineering.gusto.com/",
+  "region": "EN",
+  "reason": 403
+ },
+ {
+  "name": "Hashnode",
+  "feed_url": "https://engineering.hashnode.com/rss.xml",
+  "site_url": "https://engineering.hashnode.com/",
+  "region": "EN",
+  "reason": 500
+ },
+ {
+  "name": "Honeybadger",
+  "feed_url": "http://blog.honeybadger.io/blog/feed.xml",
+  "site_url": "http://blog.honeybadger.io/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "IMVU",
+  "feed_url": "https://engineering.imvu.com/?feed=rss2",
+  "site_url": "https://engineering.imvu.com/",
+  "region": "EN",
+  "reason": "SSLError"
+ },
+ {
+  "name": "Instagram",
+  "feed_url": "https://instagram-engineering.com/feed",
+  "site_url": "https://engineering.instagram.com/",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "Jobandtalent",
+  "feed_url": "https://jobandtalent.engineering/feed",
+  "site_url": "https://jobandtalent.engineering/",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "Just Eat",
+  "feed_url": "https://tech.justeattakeaway.com/feed/",
+  "site_url": "https://tech.just-eat.com/",
+  "region": "EN",
+  "reason": "ReadTimeout"
+ },
+ {
+  "name": "Kinvolk",
+  "feed_url": "https://kinvolk.io/blog/index.xml",
+  "site_url": "https://kinvolk.io/blog/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Kolosek",
+  "feed_url": "https://kolosek.com/blog/rss/",
+  "site_url": "https://kolosek.com/blog/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "LiveRamp",
+  "feed_url": "https://liveramp.com/wp-json/wp/v2/pages/1041448",
+  "site_url": "https://liveramp.com/engineering/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Made Tech",
+  "feed_url": "https://www.madetech.com/feed/podcast/",
+  "site_url": "https://www.madetech.com/blog",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Mozilla Automation Team",
+  "feed_url": "https://planet.mozilla.org/automation/atom.xml",
+  "site_url": "https://planet.mozilla.org/ateam/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Oursky",
+  "feed_url": "https://code.oursky.com/feed/",
+  "site_url": "https://code.oursky.com/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "PicCollage",
+  "feed_url": "https://tech.pic-collage.com/feed",
+  "site_url": "https://tech.pic-collage.com/",
+  "region": "EN",
+  "reason": "SSLError"
+ },
+ {
+  "name": "Prezi",
+  "feed_url": "https://engineering.prezi.com/feed",
+  "site_url": "https://medium.com/prezi-engineering",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "PullReview",
+  "feed_url": "http://blog.8thcolor.com/atom.xml",
+  "site_url": "http://blog.8thcolor.com/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "Riot Games",
+  "feed_url": "https://technology.riotgames.com/rss.xml",
+  "site_url": "https://engineering.riotgames.com/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Schibsted Tech Polska",
+  "feed_url": "https://www.schibsted.pl/wp-json/wp/v2/pages/3339",
+  "site_url": "http://www.schibsted.pl/blog/",
+  "region": "EN",
+  "reason": 401
+ },
+ {
+  "name": "Speedledger",
+  "feed_url": "http://engineering.speedledger.com/feed/",
+  "site_url": "http://engineering.speedledger.com/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Sqreen",
+  "feed_url": "https://www.datadoghq.com/product/application-security-management/index.xml",
+  "site_url": "https://blog.sqreen.io/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Swiggy",
+  "feed_url": "https://bytes.swiggy.com/feed",
+  "site_url": "https://bytes.swiggy.com/",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "Takipi",
+  "feed_url": "http://blog.takipi.com/rss",
+  "site_url": "http://blog.takipi.com/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Universe",
+  "feed_url": "https://engineering.universe.com/feed",
+  "site_url": "https://engineering.universe.com",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "UpGrad",
+  "feed_url": "https://engineering.upgrad.com/feed",
+  "site_url": "https://engineering.upgrad.com",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "Vena Solutions",
+  "feed_url": "https://engineering.vena.io/feed/",
+  "site_url": "https://engineering.vena.io/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "VersionEye",
+  "feed_url": "https://blog.versioneye.com/feed/",
+  "site_url": "https://blog.versioneye.com/",
+  "region": "EN",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "VTS",
+  "feed_url": "https://buildingvts.com/feed",
+  "site_url": "https://buildingvts.com/",
+  "region": "EN",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "WyeWorks",
+  "feed_url": "https://wyeworks.com/rss.xml",
+  "site_url": "https://wyeworks.com/blog/",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "Zerodha Tech",
+  "feed_url": "https://zerodha.tech/rss.xml",
+  "site_url": "https://zerodha.tech/feed.xml",
+  "region": "EN",
+  "reason": 404
+ },
+ {
+  "name": "42Seoul",
+  "feed_url": "https://42place.innovationacademy.kr/feed",
+  "site_url": "https://42place.innovationacademy.kr/",
+  "region": "KR",
+  "reason": "SSLError"
+ },
+ {
+  "name": "44BITS",
+  "feed_url": "https://www.44bits.io/ko/feed/posts",
+  "site_url": "https://www.44bits.io/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "Bsidesoft",
+  "feed_url": "https://www.bsidesoft.com/?feed=rss2",
+  "site_url": "http://www.bsidesoft.com/",
+  "region": "KR",
+  "reason": "SSLError"
+ },
+ {
+  "name": "Huiseoul Engineering",
+  "feed_url": "https://engineering.huiseoul.com/feed",
+  "site_url": "https://engineering.huiseoul.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "IMQA",
+  "feed_url": "https://blog.imqa.io/rss/",
+  "site_url": "https://blog.imqa.io/",
+  "region": "KR",
+  "reason": "ConnectTimeout"
+ },
+ {
+  "name": "ITFIND",
+  "feed_url": "http://www.itfind.or.kr/rss/all.do?rssType=02",
+  "site_url": "https://www.itfind.or.kr/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "Metta",
+  "feed_url": "https://blog.meeta.io/rss",
+  "site_url": "https://blog.meeta.io/",
+  "region": "KR",
+  "reason": "SSLError"
+ },
+ {
+  "name": "NTS WIT",
+  "feed_url": "https://wit.nts-corp.com/feed",
+  "site_url": "https://wit.nts-corp.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "The Daily Geeks",
+  "feed_url": "https://thedailygeeks.com/feed/",
+  "site_url": "https://thedailygeeks.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "UBcare",
+  "feed_url": "http://tech.ubcare.co.kr/feed.xml",
+  "site_url": "http://tech.ubcare.co.kr/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "ㅍㅍㅅㅅ 테크",
+  "feed_url": "https://ppss.kr/archives/category/tech/feed",
+  "site_url": "https://ppss.kr/archives/category/tech",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "드라마앤컴퍼니",
+  "feed_url": "http://blog.dramancompany.com/feed/",
+  "site_url": "http://blog.dramancompany.com/",
+  "region": "KR",
+  "reason": 403
+ },
+ {
+  "name": "래블업",
+  "feed_url": "https://blog.lablup.com/posts/atom.xml",
+  "site_url": "https://blog.lablup.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "레진",
+  "feed_url": "https://tech.lezhin.com/rss/",
+  "site_url": "https://tech.lezhin.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "리디북스",
+  "feed_url": "http://www.ridicorp.com/story-category/tech-blog/feed/",
+  "site_url": "https://www.ridicorp.com/story-category/tech-blog/",
+  "region": "KR",
+  "reason": 403
+ },
+ {
+  "name": "리모트몬스터",
+  "feed_url": "https://blog.remotemonster.com/feed",
+  "site_url": "https://blog.remotemonster.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "마켓컬리",
+  "feed_url": "https://helloworld.kurly.com/feed.xml",
+  "site_url": "https://helloworld.kurly.com/",
+  "region": "KR",
+  "reason": 403
+ },
+ {
+  "name": "메가존",
+  "feed_url": "https://wondermz.github.io/feed.xml",
+  "site_url": "https://wondermz.github.io/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "버즈아트",
+  "feed_url": "https://tech.bbuzzart.com/feed/",
+  "site_url": "https://tech.bbuzzart.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "브랜디 R&D 본부",
+  "feed_url": "http://labs.brandi.co.kr/feed.xml",
+  "site_url": "http://labs.brandi.co.kr/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "쏘카",
+  "feed_url": "https://tech.socarcorp.kr/feed.xml",
+  "site_url": "https://tech.socarcorp.kr/feed",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "야놀자",
+  "feed_url": "https://yanolja.github.io/feed.xml",
+  "site_url": "https://yanolja.github.io/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "어반베이스",
+  "feed_url": "https://tech.urbanbase.com/feed.xml",
+  "site_url": "https://tech.urbanbase.com/",
+  "region": "KR",
+  "reason": "ConnectionError"
+ },
+ {
+  "name": "올리브영",
+  "feed_url": "https://tech.oliveyoung.co.kr/feed",
+  "site_url": "https://tech.oliveyoung.co.kr/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "우아한형제들",
+  "feed_url": "https://techblog.woowahan.com/feed/",
+  "site_url": "https://woowabros.github.io",
+  "region": "KR",
+  "reason": 403
+ },
+ {
+  "name": "지금 써보러 갑니다",
+  "feed_url": "http://icunow.co.kr/feed/",
+  "site_url": "http://icunow.co.kr",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "채널코퍼레이션",
+  "feed_url": "https://channel.io/ko/blog/rss",
+  "site_url": "https://channel.io/ko/blog/tag/tech",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "카카오 엔터테인먼트",
+  "feed_url": "https://fe-developers.kakaoent.com/rss.xml",
+  "site_url": "https://fe-developers.kakaoent.com/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "핑퐁팀",
+  "feed_url": "https://blog.pingpong.us/feed.xml",
+  "site_url": "https://blog.pingpong.us/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "헤렌",
+  "feed_url": "https://herrenofficial.github.io/feed.xml",
+  "site_url": "https://herrenofficial.github.io/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "화해 기술블로그",
+  "feed_url": "http://blog.hwahae.co.kr/category/all/tech/feed/",
+  "site_url": "http://blog.hwahae.co.kr/category/all/tech/",
+  "region": "KR",
+  "reason": 404
+ },
+ {
+  "name": "휴몬랩",
+  "feed_url": "https://devlog-h.tistory.com/rss",
+  "site_url": "https://devlog-h.tistory.com/",
+  "region": "KR",
+  "reason": 404
+ }
+]

@@ -1,0 +1,1874 @@
+[
+ {
+  "name": "8th Light",
+  "feed_url": "https://8thlight.com/insights/feed/rss.xml",
+  "site_url": "https://8thlight.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "AdRoll",
+  "feed_url": "http://tech.adroll.com/feed.xml",
+  "site_url": "http://tech.adroll.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Advanced Web Machinery",
+  "feed_url": "https://advancedweb.hu/atom.xml",
+  "site_url": "https://advancedweb.hu/",
+  "region": "EN"
+ },
+ {
+  "name": "Airbnb",
+  "feed_url": "https://medium.com/feed/airbnb-engineering",
+  "site_url": "https://medium.com/airbnb-engineering",
+  "region": "EN"
+ },
+ {
+  "name": "Appnexus",
+  "feed_url": "https://medium.com/feed/xandr-tech",
+  "site_url": "https://techblog.appnexus.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Arkency",
+  "feed_url": "https://blog.arkency.com/feed.xml",
+  "site_url": "http://blog.arkency.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Artsy",
+  "feed_url": "http://artsy.github.io/feed",
+  "site_url": "http://artsy.github.io/",
+  "region": "EN"
+ },
+ {
+  "name": "Asana",
+  "feed_url": "https://blog.asana.com/feed/",
+  "site_url": "https://blog.asana.com/category/eng/",
+  "region": "EN"
+ },
+ {
+  "name": "Atlassian",
+  "feed_url": "https://www.atlassian.com/blog/feed",
+  "site_url": "https://developer.atlassian.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Atomic Object",
+  "feed_url": "https://spin.atomicobject.com/feed/",
+  "site_url": "https://spin.atomicobject.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Auth0",
+  "feed_url": "https://auth0.com/blog/rss.xml",
+  "site_url": "https://auth0.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Avenue Code",
+  "feed_url": "https://blog.avenuecode.com/rss.xml",
+  "site_url": "http://blog.avenuecode.com/",
+  "region": "EN"
+ },
+ {
+  "name": "AWS",
+  "feed_url": "https://aws.amazon.com/blogs/aws/feed/",
+  "site_url": "https://aws.amazon.com/blogs/aws/",
+  "region": "EN"
+ },
+ {
+  "name": "Babbel",
+  "feed_url": "https://cms.babbel.news/feed/?post_type=english_edition",
+  "site_url": "https://bytes.babbel.com/en/",
+  "region": "EN"
+ },
+ {
+  "name": "Badoo",
+  "feed_url": "https://medium.com/feed/bumble-tech",
+  "site_url": "https://techblog.badoo.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Bandcamp",
+  "feed_url": "https://bandcamptech.wordpress.com/feed/",
+  "site_url": "https://bandcamptech.wordpress.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Bazaarvoice",
+  "feed_url": "https://blog.developer.bazaarvoice.com/feed/",
+  "site_url": "https://blog.developer.bazaarvoice.com/",
+  "region": "EN"
+ },
+ {
+  "name": "BBC",
+  "feed_url": "https://medium.com/feed/bbc-product-technology",
+  "site_url": "https://medium.com/bbc-design-engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Benchling",
+  "feed_url": "https://benchling.engineering/feed",
+  "site_url": "https://benchling.engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Bigcommerce",
+  "feed_url": "https://www.bigeng.io/rss/",
+  "site_url": "http://www.bigeng.io/",
+  "region": "EN"
+ },
+ {
+  "name": "Blender",
+  "feed_url": "https://code.blender.org/rss",
+  "site_url": "https://code.blender.org/",
+  "region": "EN"
+ },
+ {
+  "name": "Brandwatch",
+  "feed_url": "http://engineering.brandwatch.com/rss",
+  "site_url": "http://engineering.brandwatch.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Canva",
+  "feed_url": "https://www.canva.dev/blog/engineering/feed.xml",
+  "site_url": "https://engineering.canva.com",
+  "region": "EN"
+ },
+ {
+  "name": "Capgemini",
+  "feed_url": "https://capgemini.github.io/feed.xml",
+  "site_url": "https://capgemini.github.io/",
+  "region": "EN"
+ },
+ {
+  "name": "Cerner",
+  "feed_url": "https://engineering.cerner.com/index.xml",
+  "site_url": "http://engineering.cerner.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Clever",
+  "feed_url": "https://engineering.clever.com/rss",
+  "site_url": "https://engineering.clever.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Cloudera",
+  "feed_url": "https://blog.cloudera.com/feed/",
+  "site_url": "https://blog.cloudera.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Cloudflare",
+  "feed_url": "https://blog.cloudflare.com/rss",
+  "site_url": "https://blog.cloudflare.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Codeship",
+  "feed_url": "https://blog.codeship.com/blog/feed/",
+  "site_url": "https://blog.codeship.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Confluent",
+  "feed_url": "https://www.confluent.io/rss.xml",
+  "site_url": "https://www.confluent.io/blog",
+  "region": "EN"
+ },
+ {
+  "name": "Criteo",
+  "feed_url": "https://medium.com/feed/criteo-engineering",
+  "site_url": "https://medium.com/criteo-labs",
+  "region": "EN"
+ },
+ {
+  "name": "CSC - IT Center For Science - Cloud Team",
+  "feed_url": "https://cloud.blog.csc.fi/feeds/posts/default",
+  "site_url": "https://cloud.blog.csc.fi/",
+  "region": "EN"
+ },
+ {
+  "name": "Curalate",
+  "feed_url": "http://engineering.curalate.com/feed.xml",
+  "site_url": "http://engineering.curalate.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Databricks",
+  "feed_url": "https://www.databricks.com/feed",
+  "site_url": "https://databricks.com/blog",
+  "region": "EN"
+ },
+ {
+  "name": "Discord",
+  "feed_url": "https://discord.com/blog/rss.xml",
+  "site_url": "https://blog.discordapp.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Docker",
+  "feed_url": "https://www.docker.com/feed/",
+  "site_url": "https://blog.docker.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Drivy",
+  "feed_url": "https://getaround.tech/feed.xml",
+  "site_url": "https://drivy.engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Dropbox",
+  "feed_url": "https://dropbox.tech/feed",
+  "site_url": "https://blogs.dropbox.com/tech/",
+  "region": "EN"
+ },
+ {
+  "name": "Ebay",
+  "feed_url": "https://www.ebayinc.com/stories/news/rss/",
+  "site_url": "https://www.ebayinc.com/stories/blogs/tech/",
+  "region": "EN"
+ },
+ {
+  "name": "eFounders",
+  "feed_url": "https://medium.com/feed/unexpected-token",
+  "site_url": "https://medium.com/unexpected-token",
+  "region": "EN"
+ },
+ {
+  "name": "Envato",
+  "feed_url": "https://webuild.envato.com/blog/rss.xml",
+  "site_url": "https://webuild.envato.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Erlang Solutions",
+  "feed_url": "https://www.erlang-solutions.com/feed/",
+  "site_url": "https://www.erlang-solutions.com/blog.html",
+  "region": "EN"
+ },
+ {
+  "name": "Evil Martians",
+  "feed_url": "https://evilmartians.com/chronicles.atom",
+  "site_url": "https://evilmartians.com/chronicles/",
+  "region": "EN"
+ },
+ {
+  "name": "Expedia",
+  "feed_url": "https://medium.com/feed/expedia-group-tech",
+  "site_url": "https://medium.com/expedia-group-tech",
+  "region": "EN"
+ },
+ {
+  "name": "Facebook",
+  "feed_url": "https://engineering.fb.com/feed/",
+  "site_url": "https://code.facebook.com/posts/",
+  "region": "EN"
+ },
+ {
+  "name": "Feedzai",
+  "feed_url": "https://medium.com/feed/feedzaitech",
+  "site_url": "https://medium.com/feedzaitech",
+  "region": "EN"
+ },
+ {
+  "name": "Findmypast",
+  "feed_url": "https://tech.findmypast.com/feed.xml",
+  "site_url": "http://tech.findmypast.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Finn.no",
+  "feed_url": "http://tech.finn.no/atom.xml",
+  "site_url": "http://tech.finn.no/",
+  "region": "EN"
+ },
+ {
+  "name": "Flickr",
+  "feed_url": "https://code.flickr.net/feed/",
+  "site_url": "http://code.flickr.net/",
+  "region": "EN"
+ },
+ {
+  "name": "Freeletics",
+  "feed_url": "https://freeletics.engineering/feed.xml",
+  "site_url": "https://freeletics.engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "GameChanger",
+  "feed_url": "http://tech.gc.com/atom.xml",
+  "site_url": "http://tech.gc.com/",
+  "region": "EN"
+ },
+ {
+  "name": "GitHub",
+  "feed_url": "https://github.blog/engineering/feed/",
+  "site_url": "https://githubengineering.com/",
+  "region": "EN"
+ },
+ {
+  "name": "GitHub Old",
+  "feed_url": "https://github.blog/feed/",
+  "site_url": "https://github.com/blog/category/engineering",
+  "region": "EN"
+ },
+ {
+  "name": "GoCardless",
+  "feed_url": "https://gocardless.com/content-platform/rss/resources.xml",
+  "site_url": "https://gocardless.com/blog/tagged/engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "GoSquared",
+  "feed_url": "https://www.gosquared.com/blog/feed",
+  "site_url": "https://engineering.gosquared.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Grab",
+  "feed_url": "http://engineering.grab.com/feed.xml",
+  "site_url": "http://engineering.grab.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Grofers",
+  "feed_url": "https://lambda.blinkit.com/feed",
+  "site_url": "https://lambda.grofers.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Groupon",
+  "feed_url": "https://medium.com/feed/groupon-eng",
+  "site_url": "https://engineering.groupon.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Guardian",
+  "feed_url": "https://www.theguardian.com/info/developer-blog/rss",
+  "site_url": "https://www.theguardian.com/info/developer-blog",
+  "region": "EN"
+ },
+ {
+  "name": "HackerEarth",
+  "feed_url": "http://engineering.hackerearth.com/rss",
+  "site_url": "http://engineering.hackerearth.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Haptik",
+  "feed_url": "https://www.haptik.ai/tech/rss.xml",
+  "site_url": "https://haptik.ai/tech/",
+  "region": "EN"
+ },
+ {
+  "name": "Harry's",
+  "feed_url": "https://medium.com/feed/harrys-engineering",
+  "site_url": "http://engineering.harrys.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Hashrocket",
+  "feed_url": "https://hashrocket.com/blog.rss",
+  "site_url": "https://hashrocket.com/blog",
+  "region": "EN"
+ },
+ {
+  "name": "Helpshift",
+  "feed_url": "https://medium.com/feed/helpshift-engineering",
+  "site_url": "https://medium.com/helpshift-engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Heroku",
+  "feed_url": "https://blog.heroku.com/engineering",
+  "site_url": "https://blog.heroku.com/engineering",
+  "region": "EN"
+ },
+ {
+  "name": "Hootsuite",
+  "feed_url": "https://medium.com/feed/hootsuite-engineering",
+  "site_url": "http://code.hootsuite.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Hostinger",
+  "feed_url": "https://www.hostinger.com/blog/feed",
+  "site_url": "https://www.hostinger.com/blog/engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Housing.com",
+  "feed_url": "https://medium.com/feed/engineering-housing",
+  "site_url": "https://medium.com/engineering-housing",
+  "region": "EN"
+ },
+ {
+  "name": "HubSpot",
+  "feed_url": "https://product.hubspot.com/blog/rss.xml",
+  "site_url": "http://product.hubspot.com/blog/topic/engineering",
+  "region": "EN"
+ },
+ {
+  "name": "Indeed",
+  "feed_url": "https://engineering.indeedblog.com/feed/",
+  "site_url": "http://engineering.indeedblog.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Instacart",
+  "feed_url": "https://tech.instacart.com/feed",
+  "site_url": "https://tech.instacart.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Jane Street",
+  "feed_url": "https://blogs.janestreet.com/feed.xml",
+  "site_url": "https://blogs.janestreet.com/category/ocaml/",
+  "region": "EN"
+ },
+ {
+  "name": "JobTeaser",
+  "feed_url": "https://medium.com/feed/jobteaser-dev-team",
+  "site_url": "https://medium.com/jobteaser-dev-team/",
+  "region": "EN"
+ },
+ {
+  "name": "Khan Academy",
+  "feed_url": "http://engineering.khanacademy.org/rss",
+  "site_url": "http://engineering.khanacademy.org",
+  "region": "EN"
+ },
+ {
+  "name": "Kogan.com",
+  "feed_url": "https://devblog.kogan.com/blog?format=rss",
+  "site_url": "https://devblog.kogan.com/",
+  "region": "EN"
+ },
+ {
+  "name": "LINE",
+  "feed_url": "https://engineering.linecorp.com/en/blog",
+  "site_url": "https://engineering.linecorp.com/en/blog",
+  "region": "EN"
+ },
+ {
+  "name": "Localytics",
+  "feed_url": "https://eng.localytics.com/rss/",
+  "site_url": "http://eng.localytics.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Lyft",
+  "feed_url": "https://eng.lyft.com/feed",
+  "site_url": "https://eng.lyft.com/",
+  "region": "EN"
+ },
+ {
+  "name": "MapTiler",
+  "feed_url": "https://www.maptiler.com/news/feed/posts.xml",
+  "site_url": "https://www.maptiler.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Medium",
+  "feed_url": "https://medium.engineering/feed",
+  "site_url": "https://medium.com/medium-eng",
+  "region": "EN"
+ },
+ {
+  "name": "Mesosphere",
+  "feed_url": "https://d2iq.com/feed",
+  "site_url": "https://mesosphere.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Microsoft Python Engineering",
+  "feed_url": "https://devblogs.microsoft.com/python/feed/",
+  "site_url": "https://blogs.msdn.microsoft.com/pythonengineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Moove-it",
+  "feed_url": "https://blog.moove-it.com/rss",
+  "site_url": "https://blog.moove-it.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Mozilla Hacks",
+  "feed_url": "https://hacks.mozilla.org/feed/",
+  "site_url": "https://hacks.mozilla.org/",
+  "region": "EN"
+ },
+ {
+  "name": "Mozilla Release Engineering",
+  "feed_url": "https://planet.mozilla.org/releng/atom.xml",
+  "site_url": "https://planet.mozilla.org/releng/",
+  "region": "EN"
+ },
+ {
+  "name": "Netflix",
+  "feed_url": "https://netflixtechblog.com/feed",
+  "site_url": "https://medium.com/netflix-techblog",
+  "region": "EN"
+ },
+ {
+  "name": "New York Times",
+  "feed_url": "https://open.nytimes.com/feed",
+  "site_url": "https://open.blogs.nytimes.com",
+  "region": "EN"
+ },
+ {
+  "name": "Nextdoor",
+  "feed_url": "https://engblog.nextdoor.com/feed",
+  "site_url": "https://engblog.nextdoor.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Nordic APIs",
+  "feed_url": "https://nordicapis.com/feed/",
+  "site_url": "https://nordicapis.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Novoda",
+  "feed_url": "https://www.novoda.com/blog/rss",
+  "site_url": "https://www.novoda.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "NPR Apps",
+  "feed_url": "https://blog.apps.npr.org/atom.xml",
+  "site_url": "http://blog.apps.npr.org/",
+  "region": "EN"
+ },
+ {
+  "name": "Nvidia",
+  "feed_url": "https://blogs.nvidia.com/feed/",
+  "site_url": "https://blogs.nvidia.com/",
+  "region": "EN"
+ },
+ {
+  "name": "OCTO Technology",
+  "feed_url": "https://blog.octo.com/feed",
+  "site_url": "https://blog.octo.com/en/",
+  "region": "EN"
+ },
+ {
+  "name": "Okta",
+  "feed_url": "https://developer.okta.com/feed.xml",
+  "site_url": "https://developer.okta.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "OLX",
+  "feed_url": "https://tech.olx.com/feed",
+  "site_url": "https://tech.olx.com/",
+  "region": "EN"
+ },
+ {
+  "name": "OpenDNS",
+  "feed_url": "https://umbrella.cisco.com/feed",
+  "site_url": "https://engineering.opendns.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Palantir",
+  "feed_url": "https://blog.palantir.com/feed",
+  "site_url": "https://blog.palantir.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Panorama Education",
+  "feed_url": "https://medium.com/feed/building-panorama-education",
+  "site_url": "http://engineering.panoramaed.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Paypal",
+  "feed_url": "https://medium.com/feed/paypal-tech",
+  "site_url": "https://www.paypal-engineering.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Pinterest",
+  "feed_url": "https://medium.com/feed/@Pinterest_Engineering",
+  "site_url": "https://medium.com/@Pinterest_Engineering",
+  "region": "EN"
+ },
+ {
+  "name": "PlanetScale",
+  "feed_url": "https://planetscale.com/blog/rss.xml",
+  "site_url": "",
+  "region": "EN"
+ },
+ {
+  "name": "Postman",
+  "feed_url": "https://medium.com/feed/better-practices",
+  "site_url": "https://medium.com/better-practices",
+  "region": "EN"
+ },
+ {
+  "name": "Postmark",
+  "feed_url": "https://postmarkapp.com/blog/feed.atom",
+  "site_url": "https://postmarkapp.com/blog",
+  "region": "EN"
+ },
+ {
+  "name": "PubNub:",
+  "feed_url": "https://www.pubnub.com/feed/blog/",
+  "site_url": "https://www.pubnub.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "REA Group",
+  "feed_url": "https://www.rea-group.com/category/tech/feed/",
+  "site_url": "https://www.rea-group.com/category/tech/",
+  "region": "EN"
+ },
+ {
+  "name": "Remind",
+  "feed_url": "http://engineering.remind.com/feed.xml",
+  "site_url": "http://engineering.remind.com/",
+  "region": "EN"
+ },
+ {
+  "name": "RetailMeNot",
+  "feed_url": "https://engineering.ziffmedia.com/feed",
+  "site_url": "https://medium.com/retailmenot-engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "RisingStack",
+  "feed_url": "https://blog.risingstack.com/feed/",
+  "site_url": "https://blog.risingstack.com/",
+  "region": "EN"
+ },
+ {
+  "name": "RoseHosting",
+  "feed_url": "https://www.rosehosting.com/blog/feed/",
+  "site_url": "https://www.rosehosting.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Sensible",
+  "feed_url": "https://blog.sensible.io/rss",
+  "site_url": "http://blog.sensible.io/",
+  "region": "EN"
+ },
+ {
+  "name": "Serverless",
+  "feed_url": "https://www.serverless.com/blog/rss.xml",
+  "site_url": "https://serverless.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Sharethis",
+  "feed_url": "https://www.sharethis.com/platform/social-feed/",
+  "site_url": "https://www.sharethis.com/category/engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Shopify",
+  "feed_url": "https://shopify.engineering/blog.atom",
+  "site_url": "https://shopify.engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "SitePoint",
+  "feed_url": "https://sitepoint.com/sitepoint.rss",
+  "site_url": "https://sitepoint.com",
+  "region": "EN"
+ },
+ {
+  "name": "Sky Betting & Gaming",
+  "feed_url": "https://sbg.technology/feed.xml",
+  "site_url": "http://engineering.skybettingandgaming.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Skyscanner",
+  "feed_url": "https://medium.com/feed/@SkyscannerEng",
+  "site_url": "http://codevoyagers.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Slack",
+  "feed_url": "https://slack.engineering/rss",
+  "site_url": "https://slack.engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Small Improvements",
+  "feed_url": "https://tech.small-improvements.com/rss",
+  "site_url": "https://tech.small-improvements.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Soshace",
+  "feed_url": "https://soshace.com/feed/",
+  "site_url": "https://blog.soshace.com/en/",
+  "region": "EN"
+ },
+ {
+  "name": "Soundcloud",
+  "feed_url": "https://developers.soundcloud.com/blog/blog.rss",
+  "site_url": "https://developers.soundcloud.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Spotify",
+  "feed_url": "https://engineering.atspotify.com/feed",
+  "site_url": "https://labs.spotify.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Square",
+  "feed_url": "https://corner.squareup.com/blog/rss.xml",
+  "site_url": "https://corner.squareup.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Squarespace",
+  "feed_url": "https://engineering.squarespace.com/blog?format=rss",
+  "site_url": "https://engineering.squarespace.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Stack Overflow",
+  "feed_url": "https://stackoverflow.blog/feed",
+  "site_url": "https://stackoverflow.blog/engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Stackshare",
+  "feed_url": "https://stackshare.io/featured-posts.atom",
+  "site_url": "https://stackshare.io/feed",
+  "region": "EN"
+ },
+ {
+  "name": "Stitch Fix",
+  "feed_url": "https://multithreaded.stitchfix.com/feed.xml",
+  "site_url": "http://multithreaded.stitchfix.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Strava",
+  "feed_url": "https://medium.com/feed/strava-engineering",
+  "site_url": "https://medium.com/strava-engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Stripe",
+  "feed_url": "https://stripe.com/blog/feed.rss",
+  "site_url": "https://stripe.com/blog",
+  "region": "EN"
+ },
+ {
+  "name": "SurveyMonkey",
+  "feed_url": "https://www.surveymonkey.com/feed/",
+  "site_url": "https://engineering.surveymonkey.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Target",
+  "feed_url": "https://target.github.io/feed.xml",
+  "site_url": "https://target.github.io/",
+  "region": "EN"
+ },
+ {
+  "name": "Teamwork",
+  "feed_url": "https://engineroom.teamwork.com/feed",
+  "site_url": "https://engineroom.teamwork.com/",
+  "region": "EN"
+ },
+ {
+  "name": "theScore",
+  "feed_url": "http://techblog.thescore.com/feed.xml",
+  "site_url": "http://techblog.thescore.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Thoughtbot",
+  "feed_url": "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots",
+  "site_url": "https://robots.thoughtbot.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Thumbtack",
+  "feed_url": "https://medium.com/feed/thumbtack-engineering",
+  "site_url": "https://www.thumbtack.com/engineering/",
+  "region": "EN"
+ },
+ {
+  "name": "Timescale",
+  "feed_url": "https://www.timescale.com/blog/rss/",
+  "site_url": "https://blog.timescale.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Tinder",
+  "feed_url": "https://medium.com/feed/tinder",
+  "site_url": "https://tech.gotinder.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Toptal",
+  "feed_url": "https://www.toptal.com/blog.rss",
+  "site_url": "https://www.toptal.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Transferwise",
+  "feed_url": "https://medium.com/feed/wise-engineering",
+  "site_url": "http://tech.transferwise.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Trivago",
+  "feed_url": "http://tech.trivago.com/rss.xml",
+  "site_url": "http://tech.trivago.com/",
+  "region": "EN"
+ },
+ {
+  "name": "TrueCar",
+  "feed_url": "https://medium.com/feed/driven-by-code",
+  "site_url": "https://www.drivenbycode.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Tumblr",
+  "feed_url": "https://engineering.tumblr.com/rss",
+  "site_url": "https://engineering.tumblr.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Twilio",
+  "feed_url": "https://www.twilio.com/blog/feed",
+  "site_url": "https://www.twilio.com/blog/",
+  "region": "EN"
+ },
+ {
+  "name": "Vinted",
+  "feed_url": "https://vinted.engineering//atom.xml",
+  "site_url": "http://engineering.vinted.com/",
+  "region": "EN"
+ },
+ {
+  "name": "VNGRS",
+  "feed_url": "https://medium.com/feed/vngrs",
+  "site_url": "http://blog.vngrs.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Wayfair",
+  "feed_url": "https://www.aboutwayfair.com/careers/tech-blog.rss",
+  "site_url": "http://engineering.wayfair.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Wealthfront",
+  "feed_url": "https://eng.wealthfront.com/feed/",
+  "site_url": "http://eng.wealthfront.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Wemake.services",
+  "feed_url": "https://medium.com/feed/wemake-services",
+  "site_url": "https://medium.com/wemake-services",
+  "region": "EN"
+ },
+ {
+  "name": "Wingify",
+  "feed_url": "http://engineering.wingify.com/atom.xml",
+  "site_url": "http://engineering.wingify.com/",
+  "region": "EN"
+ },
+ {
+  "name": "XING",
+  "feed_url": "https://tech.new-work.se/feed",
+  "site_url": "https://tech.xing.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Yahoo",
+  "feed_url": "https://yahooeng.tumblr.com/rss",
+  "site_url": "https://yahooeng.tumblr.com/",
+  "region": "EN"
+ },
+ {
+  "name": "Yammer",
+  "feed_url": "https://medium.com/feed/yammer-engineering",
+  "site_url": "https://medium.com/yammer-engineering",
+  "region": "EN"
+ },
+ {
+  "name": "Zendesk",
+  "feed_url": "https://zendesk.engineering/feed",
+  "site_url": "https://medium.com/zendesk-engineering",
+  "region": "EN"
+ },
+ {
+  "name": "Zendesk(old)",
+  "feed_url": "https://developerblog.zendesk.com/feed",
+  "site_url": "https://developer.zendesk.com/blog",
+  "region": "EN"
+ },
+ {
+  "name": "29CM",
+  "feed_url": "https://medium.com/feed/29cm",
+  "site_url": "https://medium.com/29cm",
+  "region": "KR"
+ },
+ {
+  "name": "Aliencube",
+  "feed_url": "https://blog.aliencube.org/feed.xml",
+  "site_url": "https://blog.aliencube.org/",
+  "region": "KR"
+ },
+ {
+  "name": "AWS Korea",
+  "feed_url": "https://aws.amazon.com/ko/blogs/korea/feed/",
+  "site_url": "https://aws.amazon.com/ko/blogs/korea/",
+  "region": "KR"
+ },
+ {
+  "name": "Blind Hire",
+  "feed_url": "https://brunch.co.kr/rss/@@b60s",
+  "site_url": "https://brunch.co.kr/@blindhire",
+  "region": "KR"
+ },
+ {
+  "name": "Cloud Villains",
+  "feed_url": "https://medium.com/feed/ctc-mzc",
+  "site_url": "https://medium.com/ctc-mzc",
+  "region": "KR"
+ },
+ {
+  "name": "Cloudflare",
+  "feed_url": "https://blog.cloudflare.com/ko-kr/rss/",
+  "site_url": "https://blog.cloudflare.com/ko-kr/",
+  "region": "KR"
+ },
+ {
+  "name": "CODE 200",
+  "feed_url": "https://code-200.tistory.com/rss",
+  "site_url": "https://code-200.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "deviantCJ",
+  "feed_url": "https://deviantcj.tistory.com/rss",
+  "site_url": "https://deviantcj.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "devpools",
+  "feed_url": "http://www.devpools.kr/atom.xml",
+  "site_url": "http://www.devpools.kr",
+  "region": "KR"
+ },
+ {
+  "name": "Django Girls Seoul",
+  "feed_url": "https://medium.com/feed/djangogirlsseoul-codecamp",
+  "site_url": "https://djangogirls.org/seoul/",
+  "region": "KR"
+ },
+ {
+  "name": "Elastic",
+  "feed_url": "https://www.elastic.co/kr/blog/feed",
+  "site_url": "https://www.elastic.co/kr/blog",
+  "region": "KR"
+ },
+ {
+  "name": "Encored",
+  "feed_url": "https://medium.com/feed/encored-technologies-engineering-data-science",
+  "site_url": "https://medium.com/encored-technologies-engineering-data-science",
+  "region": "KR"
+ },
+ {
+  "name": "GeekNews",
+  "feed_url": "http://feeds.feedburner.com/geeknews-feed",
+  "site_url": "https://news.hada.io/",
+  "region": "KR"
+ },
+ {
+  "name": "Gitple",
+  "feed_url": "https://tech.finset.io/atom.xml",
+  "site_url": "https://tech.finset.io/",
+  "region": "KR"
+ },
+ {
+  "name": "Google",
+  "feed_url": "http://feeds.feedburner.com/GoogleDevelopersKorea",
+  "site_url": "https://developers-kr.googleblog.com/",
+  "region": "KR"
+ },
+ {
+  "name": "GS Retail",
+  "feed_url": "https://gsretail.tistory.com/rss",
+  "site_url": "https://gsretail.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "G마켓",
+  "feed_url": "https://dev.gmarket.com/rss",
+  "site_url": "https://dev.gmarket.com",
+  "region": "KR"
+ },
+ {
+  "name": "JetBrains 코리아",
+  "feed_url": "https://blog.jetbrains.com/kr/feed/",
+  "site_url": "https://blog.jetbrains.com/kr/",
+  "region": "KR"
+ },
+ {
+  "name": "KLDP",
+  "feed_url": "https://kldp.org/blog/feed",
+  "site_url": "https://kldp.org/blog",
+  "region": "KR"
+ },
+ {
+  "name": "Korean FE Article",
+  "feed_url": "https://kofearticle.substack.com/feed",
+  "site_url": "https://kofearticle.substack.com/",
+  "region": "KR"
+ },
+ {
+  "name": "Kotlin Korea",
+  "feed_url": "http://kotlin.kr/feed.xml",
+  "site_url": "http://kotlin.kr/blog/",
+  "region": "KR"
+ },
+ {
+  "name": "LG CNS",
+  "feed_url": "https://blog.lgcns.com/rss",
+  "site_url": "https://blog.lgcns.com/",
+  "region": "KR"
+ },
+ {
+  "name": "MakinaRocks",
+  "feed_url": "https://makinarocks.github.io/feed",
+  "site_url": "https://makinarocks.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "MC러닝 연구소",
+  "feed_url": "https://mclearninglab.tistory.com/rss",
+  "site_url": "https://mclearninglab.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "Mozilla Hacks",
+  "feed_url": "http://hacks.mozilla.or.kr/feed/",
+  "site_url": "http://hacks.mozilla.or.kr",
+  "region": "KR"
+ },
+ {
+  "name": "NAVER D2 - 네이버",
+  "feed_url": "https://d2.naver.com/d2.atom",
+  "site_url": "https://d2.naver.com/",
+  "region": "KR"
+ },
+ {
+  "name": "NDS",
+  "feed_url": "https://tech.cloud.nongshim.co.kr/feed/",
+  "site_url": "https://tech.cloud.nongshim.co.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "NGINX PLUS",
+  "feed_url": "https://nginxstore.com/feed/",
+  "site_url": "https://nginxstore.com/blog/",
+  "region": "KR"
+ },
+ {
+  "name": "NHN Cloud",
+  "feed_url": "https://meetup.toast.com/rss",
+  "site_url": "https://meetup.toast.com",
+  "region": "KR"
+ },
+ {
+  "name": "NHN TOAST UI",
+  "feed_url": "https://ui.toast.com/rss.xml",
+  "site_url": "https://ui.toast.com/",
+  "region": "KR"
+ },
+ {
+  "name": "PlusTV",
+  "feed_url": "https://medium.com/feed/plustv",
+  "site_url": "https://medium.com/plustv",
+  "region": "KR"
+ },
+ {
+  "name": "Popit",
+  "feed_url": "http://www.popit.kr/feed/",
+  "site_url": "http://www.popit.kr",
+  "region": "KR"
+ },
+ {
+  "name": "QuotaLab",
+  "feed_url": "https://rss.mgmt.quotalab.com/tech.rss",
+  "site_url": "https://quotabook.com/ko/blog/tech",
+  "region": "KR"
+ },
+ {
+  "name": "Riiid Techblog",
+  "feed_url": "https://medium.com/feed/@riiidtechblog",
+  "site_url": "https://riiidtechblog.medium.com/",
+  "region": "KR"
+ },
+ {
+  "name": "Samsung SDS",
+  "feed_url": "https://www.samsungsds.com/kr/insights/insight_ko_rss.xml",
+  "site_url": "https://www.samsungsds.com/kr/insights/index.html",
+  "region": "KR"
+ },
+ {
+  "name": "Samsung Tech Blog",
+  "feed_url": "https://techblog.samsung.com/rss",
+  "site_url": "https://techblog.samsung.com/",
+  "region": "KR"
+ },
+ {
+  "name": "SecurityFactory",
+  "feed_url": "http://securityfactory.tistory.com/rss",
+  "site_url": "http://securityfactory.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "Skelter labs",
+  "feed_url": "http://blog.rss.naver.com/skelterlabs.xml",
+  "site_url": "http://blog.naver.com/skelterlabs",
+  "region": "KR"
+ },
+ {
+  "name": "SK플래닛 개발자활동",
+  "feed_url": "http://feeds.feedburner.com/skpreadme?format=xml",
+  "site_url": "http://readme.skplanet.com/",
+  "region": "KR"
+ },
+ {
+  "name": "SnowL TV",
+  "feed_url": "https://studyc.tistory.com/rss",
+  "site_url": "https://studyc.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "Spoqa",
+  "feed_url": "https://spoqa.github.io/atom.xml",
+  "site_url": "https://spoqa.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "StyleShare",
+  "feed_url": "https://medium.com/feed/styleshare",
+  "site_url": "https://medium.com/styleshare",
+  "region": "KR"
+ },
+ {
+  "name": "Trenbe 기술블로그",
+  "feed_url": "https://tech.trenbe.com/feed",
+  "site_url": "https://tech.trenbe.com",
+  "region": "KR"
+ },
+ {
+  "name": "Typed",
+  "feed_url": "https://medium.com/feed/business-canvas",
+  "site_url": "https://medium.com/business-canvas",
+  "region": "KR"
+ },
+ {
+  "name": "UNREAL",
+  "feed_url": "https://www.unrealengine.com/ko/rss",
+  "site_url": "https://www.unrealengine.com/ko/feed/tech-blog",
+  "region": "KR"
+ },
+ {
+  "name": "VCNC",
+  "feed_url": "http://engineering.vcnc.co.kr/atom.xml",
+  "site_url": "http://engineering.vcnc.co.kr",
+  "region": "KR"
+ },
+ {
+  "name": "Vingle",
+  "feed_url": "https://medium.com/feed/vingle-tech-blog",
+  "site_url": "https://medium.com/vingle-tech-blog",
+  "region": "KR"
+ },
+ {
+  "name": "VW Lab",
+  "feed_url": "https://www.vw-lab.com/rss",
+  "site_url": "https://www.vw-lab.com/",
+  "region": "KR"
+ },
+ {
+  "name": "WATCHA",
+  "feed_url": "https://medium.com/feed/watcha",
+  "site_url": "https://medium.com/watcha",
+  "region": "KR"
+ },
+ {
+  "name": "WegglePlus Blog",
+  "feed_url": "https://weggle-plus.co.kr/blog/rss.xml",
+  "site_url": "https://weggle-plus.co.kr/rss.xml",
+  "region": "KR"
+ },
+ {
+  "name": "withDaddy코딩아빠",
+  "feed_url": "https://rss.blog.naver.com/codingdaddy.xml",
+  "site_url": "https://blog.naver.com/codingdaddy",
+  "region": "KR"
+ },
+ {
+  "name": "ZUM Tech",
+  "feed_url": "https://zuminternet.github.io/feed.xml",
+  "site_url": "https://zuminternet.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "가비아",
+  "feed_url": "https://library.gabia.com/feed",
+  "site_url": "https://library.gabia.com/",
+  "region": "KR"
+ },
+ {
+  "name": "게임개발포에버",
+  "feed_url": "http://feeds.feedburner.com/gamedevforever?format=xml",
+  "site_url": "http://gamedevforever.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "글루시스",
+  "feed_url": "https://tech.gluesys.com/feed.xml",
+  "site_url": "https://tech.gluesys.com/blog/",
+  "region": "KR"
+ },
+ {
+  "name": "너드팩토리",
+  "feed_url": "https://blog.nerdfactory.ai/feed.xml",
+  "site_url": "https://blog.nerdfactory.ai",
+  "region": "KR"
+ },
+ {
+  "name": "네이버 클라우드 플랫폼",
+  "feed_url": "https://rss.blog.naver.com/n_cloudplatform.xml",
+  "site_url": "https://blog.naver.com/n_cloudplatform",
+  "region": "KR"
+ },
+ {
+  "name": "네이버 플레이스",
+  "feed_url": "https://medium.com/feed/naver-place-dev",
+  "site_url": "https://medium.com/naver-place-dev",
+  "region": "KR"
+ },
+ {
+  "name": "넥스트리",
+  "feed_url": "https://www.nextree.io/rss/",
+  "site_url": "https://www.nextree.io/tag/blog/",
+  "region": "KR"
+ },
+ {
+  "name": "넷마블 기술 블로그",
+  "feed_url": "https://netmarble.engineering/feed/",
+  "site_url": "https://netmarble.engineering/",
+  "region": "KR"
+ },
+ {
+  "name": "노마드 크리에이터",
+  "feed_url": "https://theprogrammertells.blogspot.com/feeds/posts/default?alt=rss",
+  "site_url": "https://theprogrammertells.blogspot.com/",
+  "region": "KR"
+ },
+ {
+  "name": "누나IT",
+  "feed_url": "https://rss.blog.naver.com/comkang4.xml",
+  "site_url": "https://blog.naver.com/comkang4",
+  "region": "KR"
+ },
+ {
+  "name": "다나와",
+  "feed_url": "https://danawalab.github.io/feed",
+  "site_url": "https://danawalab.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "달리웍스",
+  "feed_url": "http://techblog.daliworks.net/feed.xml",
+  "site_url": "http://techblog.daliworks.net/",
+  "region": "KR"
+ },
+ {
+  "name": "닷넷데브",
+  "feed_url": "https://blog.dotnetdev.kr/feed",
+  "site_url": "https://blog.dotnetdev.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "당근마켓",
+  "feed_url": "https://medium.com/feed/daangn",
+  "site_url": "https://medium.com/daangn",
+  "region": "KR"
+ },
+ {
+  "name": "더핑크퐁컴퍼니",
+  "feed_url": "https://medium.com/feed/pinkfong",
+  "site_url": "https://medium.com/pinkfong",
+  "region": "KR"
+ },
+ {
+  "name": "데일리호텔",
+  "feed_url": "https://dailyhotel.io/feed",
+  "site_url": "https://dailyhotel.io/",
+  "region": "KR"
+ },
+ {
+  "name": "도모버스 (Domoverse)",
+  "feed_url": "https://medium.com/feed/domoverse",
+  "site_url": "https://medium.com/domoverse",
+  "region": "KR"
+ },
+ {
+  "name": "디자인 못 하는 디자이너",
+  "feed_url": "https://brunch.co.kr/rss/@@34u4",
+  "site_url": "https://brunch.co.kr/@wlgp2096",
+  "region": "KR"
+ },
+ {
+  "name": "딜리셔스",
+  "feed_url": "https://dealicious-inc.github.io/feed.xml",
+  "site_url": "https://dealicious-inc.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "라온피플",
+  "feed_url": "https://rss.blog.naver.com/laonple.xml",
+  "site_url": "https://blog.naver.com/laonple",
+  "region": "KR"
+ },
+ {
+  "name": "라인",
+  "feed_url": "https://techblog.lycorp.co.jp/ko/feed/index.xml",
+  "site_url": "https://techblog.lycorp.co.jp/ko",
+  "region": "KR"
+ },
+ {
+  "name": "라인웍스",
+  "feed_url": "https://blog.linewalks.com/feed",
+  "site_url": "https://blog.linewalks.com/",
+  "region": "KR"
+ },
+ {
+  "name": "락플레이스",
+  "feed_url": "https://ossonazure.tistory.com/rss",
+  "site_url": "https://ossonazure.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "로켓펀치",
+  "feed_url": "https://blog.rocketpunch.com/feed/",
+  "site_url": "https://blog.rocketpunch.com/",
+  "region": "KR"
+ },
+ {
+  "name": "리베하얀",
+  "feed_url": "https://rss.blog.naver.com/rebehayan.xml",
+  "site_url": "https://blog.naver.com/rebehayan",
+  "region": "KR"
+ },
+ {
+  "name": "마이크로소프트웨어",
+  "feed_url": "http://feeds.feedburner.com/imaso",
+  "site_url": "https://www.imaso.co.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "망고플레이트",
+  "feed_url": "https://medium.com/feed/team-mangoplate",
+  "site_url": "https://medium.com/team-mangoplate",
+  "region": "KR"
+ },
+ {
+  "name": "메이커교육실천_MakerEdu",
+  "feed_url": "http://www.makered.or.kr/feed",
+  "site_url": "http://www.makered.or.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "멜론 Design Group",
+  "feed_url": "https://brunch.co.kr/rss/@@5fXt",
+  "site_url": "https://brunch.co.kr/@design-melon",
+  "region": "KR"
+ },
+ {
+  "name": "모두의연구소",
+  "feed_url": "https://medium.com/feed/modulabs",
+  "site_url": "https://medium.com/modulabs",
+  "region": "KR"
+ },
+ {
+  "name": "모두의연구소",
+  "feed_url": "https://brunch.co.kr/rss/@@c7um",
+  "site_url": "https://brunch.co.kr/@modulabs",
+  "region": "KR"
+ },
+ {
+  "name": "모람씨앤티",
+  "feed_url": "http://blog.moramcnt.com/?feed=rss2",
+  "site_url": "http://blog.moramcnt.com/",
+  "region": "KR"
+ },
+ {
+  "name": "무스마",
+  "feed_url": "https://musma.github.io/feed.xml",
+  "site_url": "https://musma.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "밀당",
+  "feed_url": "https://medium.com/feed/mildang",
+  "site_url": "https://medium.com/mildang",
+  "region": "KR"
+ },
+ {
+  "name": "박스앤위스커",
+  "feed_url": "http://boxnwhis.kr/feed.xml",
+  "site_url": "http://boxnwhis.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "뱅크샐러드",
+  "feed_url": "https://blog.banksalad.com/rss.xml",
+  "site_url": "https://blog.banksalad.com/",
+  "region": "KR"
+ },
+ {
+  "name": "번개장터",
+  "feed_url": "https://medium.com/feed/bunjang-tech-blog",
+  "site_url": "https://medium.com/bunjang-tech-blog",
+  "region": "KR"
+ },
+ {
+  "name": "뷰저블",
+  "feed_url": "https://brunch.co.kr/rss/@@30Rl",
+  "site_url": "https://brunch.co.kr/@beusable",
+  "region": "KR"
+ },
+ {
+  "name": "블로코",
+  "feed_url": "https://www.blocko.io/feed/",
+  "site_url": "https://www.blocko.io/resource/blog/",
+  "region": "KR"
+ },
+ {
+  "name": "사람인HR 기술 블로그",
+  "feed_url": "https://saramin.github.io/feed.xml",
+  "site_url": "https://saramin.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "사이버이메지네이션",
+  "feed_url": "https://cyberx.tistory.com/rss",
+  "site_url": "https://cyberx.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "서지스윈",
+  "feed_url": "http://feeds.feedburner.com/comblog",
+  "site_url": "https://sergeswin.com/",
+  "region": "KR"
+ },
+ {
+  "name": "서플",
+  "feed_url": "https://medium.com/feed/supple",
+  "site_url": "https://medium.com/supple",
+  "region": "KR"
+ },
+ {
+  "name": "세컨드스페이스",
+  "feed_url": "https://brunch.co.kr/rss/@@63JW",
+  "site_url": "https://brunch.co.kr/@second-space",
+  "region": "KR"
+ },
+ {
+  "name": "솔트룩스",
+  "feed_url": "https://rss.blog.naver.com/saltluxmarketing.xml",
+  "site_url": "https://blog.naver.com/saltluxmarketing",
+  "region": "KR"
+ },
+ {
+  "name": "스타트링크",
+  "feed_url": "https://startlink.blog/feed/",
+  "site_url": "https://startlink.blog/",
+  "region": "KR"
+ },
+ {
+  "name": "스티비",
+  "feed_url": "https://blog.stibee.com/feed",
+  "site_url": "https://blog.stibee.com/",
+  "region": "KR"
+ },
+ {
+  "name": "스파르타코딩클럽",
+  "feed_url": "https://rss.blog.naver.com/spartacoding.xml",
+  "site_url": "https://blog.naver.com/spartacoding",
+  "region": "KR"
+ },
+ {
+  "name": "슬로우뉴스-테크",
+  "feed_url": "http://slownews.kr/category/tech/feed",
+  "site_url": "http://slownews.kr/category/tech",
+  "region": "KR"
+ },
+ {
+  "name": "슬리드",
+  "feed_url": "https://medium.com/feed/@slid",
+  "site_url": "https://slid.medium.com/",
+  "region": "KR"
+ },
+ {
+  "name": "시스코 코리아",
+  "feed_url": "https://gblogs.cisco.com/kr/feed/",
+  "site_url": "https://gblogs.cisco.com/kr/",
+  "region": "KR"
+ },
+ {
+  "name": "씨앤텍시스템즈",
+  "feed_url": "https://cntechsystems.tistory.com/rss",
+  "site_url": "https://cntechsystems.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "아테나스랩",
+  "feed_url": "https://medium.com/feed/athenaslab",
+  "site_url": "https://medium.com/athenaslab",
+  "region": "KR"
+ },
+ {
+  "name": "아해팀",
+  "feed_url": "https://devahea.github.io/atom.xml",
+  "site_url": "https://devahea.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "에듀코딩",
+  "feed_url": "https://rss.blog.naver.com/educoding.xml",
+  "site_url": "https://blog.naver.com/educoding",
+  "region": "KR"
+ },
+ {
+  "name": "에스티씨랩 블로그",
+  "feed_url": "https://medium.com/feed/stclab-tech-blog",
+  "site_url": "https://medium.com/stclab-tech-blog",
+  "region": "KR"
+ },
+ {
+  "name": "에이브릴",
+  "feed_url": "https://rss.blog.naver.com/skaibril.xml",
+  "site_url": "https://blog.naver.com/skaibril",
+  "region": "KR"
+ },
+ {
+  "name": "에이비일팔공",
+  "feed_url": "https://raw.githubusercontent.com/ab180/engineering-base/master/feed-ab180.rss",
+  "site_url": "https://engineering.ab180.co/",
+  "region": "KR"
+ },
+ {
+  "name": "에이콘",
+  "feed_url": "https://feeds.feedburner.com/acornpub",
+  "site_url": "http://www.acornpub.co.kr/blog",
+  "region": "KR"
+ },
+ {
+  "name": "엠비안",
+  "feed_url": "http://blog.embian.com/rss",
+  "site_url": "http://blog.embian.com/",
+  "region": "KR"
+ },
+ {
+  "name": "오토피디아",
+  "feed_url": "https://blog.doctor-cha.com/_feather/rss.xml",
+  "site_url": "https://blog.doctor-cha.com/",
+  "region": "KR"
+ },
+ {
+  "name": "오픈소스컨설팅",
+  "feed_url": "https://tech.osci.kr/rss/",
+  "site_url": "https://tech.osci.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "요즘IT",
+  "feed_url": "https://yozm.wishket.com/magazine/feed/",
+  "site_url": "https://yozm.wishket.com/magazine/",
+  "region": "KR"
+ },
+ {
+  "name": "우분투 한국 커뮤니티",
+  "feed_url": "https://blog.ubuntu-kr.org/index.xml",
+  "site_url": "http://blog.ubuntu-kr.org/",
+  "region": "KR"
+ },
+ {
+  "name": "원티드",
+  "feed_url": "https://medium.com/feed/wantedjobs",
+  "site_url": "https://medium.com/wantedjobs",
+  "region": "KR"
+ },
+ {
+  "name": "월요일 오후 9시",
+  "feed_url": "https://medium.com/feed/monday-9-pm",
+  "site_url": "https://medium.com/monday-9-pm",
+  "region": "KR"
+ },
+ {
+  "name": "위대한 상상(요기요)",
+  "feed_url": "https://techblog.yogiyo.co.kr/feed",
+  "site_url": "https://techblog.yogiyo.co.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "위매치",
+  "feed_url": "https://medium.com/feed/wematch",
+  "site_url": "https://medium.com/wematch",
+  "region": "KR"
+ },
+ {
+  "name": "이더리움 연구회",
+  "feed_url": "https://medium.com/feed/@etherstudy",
+  "site_url": "https://medium.com/@etherstudy",
+  "region": "KR"
+ },
+ {
+  "name": "이상한모임",
+  "feed_url": "http://blog.weirdx.io/feed/",
+  "site_url": "http://blog.weirdx.io",
+  "region": "KR"
+ },
+ {
+  "name": "이스트 시큐리티",
+  "feed_url": "https://blog.alyac.co.kr/feed",
+  "site_url": "https://blog.alyac.co.kr/",
+  "region": "KR"
+ },
+ {
+  "name": "이스트소프트",
+  "feed_url": "https://blog.est.ai/feed.xml",
+  "site_url": "https://blog.est.ai/",
+  "region": "KR"
+ },
+ {
+  "name": "인사이트",
+  "feed_url": "http://blog.insightbook.co.kr/rss",
+  "site_url": "http://blog.insightbook.co.kr",
+  "region": "KR"
+ },
+ {
+  "name": "인티그레이션",
+  "feed_url": "https://v2.velog.io/rss/medistream",
+  "site_url": "https://velog.io/@medistream/posts",
+  "region": "KR"
+ },
+ {
+  "name": "일레클",
+  "feed_url": "https://medium.com/feed/elecle-bike",
+  "site_url": "https://medium.com/elecle-bike",
+  "region": "KR"
+ },
+ {
+  "name": "정보박사",
+  "feed_url": "https://rss.blog.naver.com/infobaksa.xml",
+  "site_url": "https://blog.naver.com/infobaksa",
+  "region": "KR"
+ },
+ {
+  "name": "제니퍼소프트",
+  "feed_url": "https://jennifersoft.com/ko/category/blog/tech/feed/",
+  "site_url": "https://jennifersoft.com/ko/category/blog/tech/",
+  "region": "KR"
+ },
+ {
+  "name": "지앤선",
+  "feed_url": "http://jinson.tistory.com/rss",
+  "site_url": "http://jinson.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "차라투",
+  "feed_url": "https://blog.zarathu.com/index.xml",
+  "site_url": "https://blog.zarathu.com/",
+  "region": "KR"
+ },
+ {
+  "name": "카카오",
+  "feed_url": "https://tech.kakao.com/feed/",
+  "site_url": "https://tech.kakao.com/",
+  "region": "KR"
+ },
+ {
+  "name": "카카오 엔터프라이즈",
+  "feed_url": "https://tech.kakaoenterprise.com/rss",
+  "site_url": "https://tech.kakaoenterprise.com/",
+  "region": "KR"
+ },
+ {
+  "name": "카카오스타일",
+  "feed_url": "https://devblog.kakaostyle.com/ko/index.xml",
+  "site_url": "https://devblog.kakaostyle.com/ko/",
+  "region": "KR"
+ },
+ {
+  "name": "카카오페이",
+  "feed_url": "https://tech.kakaopay.com/rss.xml",
+  "site_url": "https://tech.kakaopay.com/",
+  "region": "KR"
+ },
+ {
+  "name": "코드스테이츠",
+  "feed_url": "https://medium.com/feed/code-states",
+  "site_url": "https://medium.com/code-states",
+  "region": "KR"
+ },
+ {
+  "name": "코드잇",
+  "feed_url": "https://rss.blog.naver.com/codeitofficial.xml",
+  "site_url": "https://blog.naver.com/codeitofficial",
+  "region": "KR"
+ },
+ {
+  "name": "코딩지니어스",
+  "feed_url": "https://rss.blog.naver.com/codinggenius.xml",
+  "site_url": "https://blog.naver.com/codinggenius",
+  "region": "KR"
+ },
+ {
+  "name": "코멘토",
+  "feed_url": "https://developer.comento.kr/rss.xml",
+  "site_url": "https://developer.comento.kr",
+  "region": "KR"
+ },
+ {
+  "name": "콜라비",
+  "feed_url": "https://rss.blog.naver.com/collabee.xml",
+  "site_url": "https://blog.naver.com/collabee",
+  "region": "KR"
+ },
+ {
+  "name": "쿠팡",
+  "feed_url": "https://medium.com/feed/coupang-engineering",
+  "site_url": "https://medium.com/coupang-tech",
+  "region": "KR"
+ },
+ {
+  "name": "퀄컴코리아",
+  "feed_url": "https://rss.blog.naver.com/qualcommkr.xml",
+  "site_url": "https://blog.naver.com/qualcommkr",
+  "region": "KR"
+ },
+ {
+  "name": "큐로플",
+  "feed_url": "https://v2.velog.io/rss/qroffle",
+  "site_url": "https://velog.io/@qroffle",
+  "region": "KR"
+ },
+ {
+  "name": "큐브리드",
+  "feed_url": "https://www.cubrid.com/blog/rss",
+  "site_url": "https://www.cubrid.com/blog/",
+  "region": "KR"
+ },
+ {
+  "name": "크몽",
+  "feed_url": "https://medium.com/feed/kmong",
+  "site_url": "https://medium.com/kmong",
+  "region": "KR"
+ },
+ {
+  "name": "테이블링",
+  "feed_url": "https://medium.com/feed/tabling-tech",
+  "site_url": "https://medium.com/tabling-tech",
+  "region": "KR"
+ },
+ {
+  "name": "테크니들",
+  "feed_url": "http://techneedle.com/feed",
+  "site_url": "http://techneedle.com/",
+  "region": "KR"
+ },
+ {
+  "name": "토스",
+  "feed_url": "https://toss.tech/rss.xml",
+  "site_url": "",
+  "region": "KR"
+ },
+ {
+  "name": "토스랩",
+  "feed_url": "https://tosslab.github.io/feed.xml",
+  "site_url": "https://tosslab.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "티몬의 개발이야기",
+  "feed_url": "https://rss.blog.naver.com/tmondev.xml",
+  "site_url": "https://blog.naver.com/tmondev",
+  "region": "KR"
+ },
+ {
+  "name": "펫프렌즈",
+  "feed_url": "https://medium.com/feed/@pfdev",
+  "site_url": "https://pfdev.medium.com/",
+  "region": "KR"
+ },
+ {
+  "name": "플라네타리움",
+  "feed_url": "https://snack.planetarium.dev/kor/index.xml",
+  "site_url": "https://snack.planetarium.dev/kor/",
+  "region": "KR"
+ },
+ {
+  "name": "플랫팜",
+  "feed_url": "https://medium.com/feed/platfarm",
+  "site_url": "https://medium.com/platfarm",
+  "region": "KR"
+ },
+ {
+  "name": "플랫폼 개발팀",
+  "feed_url": "https://team-platform.tistory.com/rss",
+  "site_url": "https://team-platform.tistory.com/",
+  "region": "KR"
+ },
+ {
+  "name": "하모니카",
+  "feed_url": "https://hamonikr.org/rss",
+  "site_url": "http://hamonikr.org/",
+  "region": "KR"
+ },
+ {
+  "name": "하이퍼커넥트",
+  "feed_url": "https://hyperconnect.github.io/feed.xml",
+  "site_url": "https://hyperconnect.github.io/",
+  "region": "KR"
+ },
+ {
+  "name": "한국 그린데이터",
+  "feed_url": "https://medium.com/feed/greendatakr",
+  "site_url": "https://medium.com/greendatakr",
+  "region": "KR"
+ },
+ {
+  "name": "헤이딜러",
+  "feed_url": "https://medium.com/feed/prnd",
+  "site_url": "https://medium.com/prnd",
+  "region": "KR"
+ },
+ {
+  "name": "휴먼스케이프 개발블로그",
+  "feed_url": "https://medium.com/feed/humanscape-tech",
+  "site_url": "https://medium.com/humanscape-tech",
+  "region": "KR"
+ }
+]
