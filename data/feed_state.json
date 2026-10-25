@@ -1,79 +1,79 @@
 {
  "https://8thlight.com/insights/feed/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "http://tech.adroll.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "\"4b4ccc57002fe1762ca2a29da8de9de8\"",
   "last_modified": "Fri, 15 Dec 2023 20:54:44 GMT"
  },
  "https://advancedweb.hu/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"6a384e7f-3f814\"",
   "last_modified": "Sun, 21 Jun 2026 20:50:07 GMT"
  },
  "https://medium.com/feed/airbnb-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/xandr-tech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://blog.arkency.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"17c07f8fdb8c3d30ea7e3167d16bc327-ssl-df\""
  },
  "http://artsy.github.io/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"6968f2f9-2aaf3\"",
   "last_modified": "Thu, 15 Jan 2026 14:00:25 GMT"
  },
  "https://blog.asana.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "etag": "W/\"op89eowpz0e9ar\""
+  "etag": "W/\"7kkk0yjdr0e9bj\""
  },
  "https://www.atlassian.com/blog/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://spin.atomicobject.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "etag": "\"b24d5d799ad468e17f9a78179c321074\"",
-  "last_modified": "Sat, 24 Oct 2026 12:00:12 GMT"
+  "etag": "\"884320d40561a08b71ee3d7c2074e04b\"",
+  "last_modified": "Sun, 25 Oct 2026 12:00:57 GMT"
  },
  "https://auth0.com/blog/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://blog.avenuecode.com/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"ba6a18d4cd52be11aa00d711d47604cf\"",
-  "last_modified": "Sat, 12 Sep 2026 16:26:44 GMT"
+  "last_modified": "Sat, 12 Sep 2026 16:26:45 GMT"
  },
  "https://aws.amazon.com/blogs/aws/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "last_modified": "Fri, 23 Oct 2026 13:09:48 GMT"
  },
@@ -87,30 +87,30 @@
  },
  "https://medium.com/feed/bumble-tech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://bandcamptech.wordpress.com/feed/": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "last_modified": "Fri, 07 Aug 2026 12:49:33 GMT"
+  "last_modified": "Fri, 07 Aug 2026 12:47:29 GMT"
  },
  "https://blog.developer.bazaarvoice.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"b731bbdb63d8ed91167629e9aad987f3\"",
   "last_modified": "Tue, 29 Sep 2026 10:23:00 GMT"
  },
  "https://medium.com/feed/bbc-product-technology": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://benchling.engineering/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://www.bigeng.io/rss/": {
@@ -122,228 +122,228 @@
  },
  "https://code.blender.org/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
-  "etag": "\"de14f9430577ff2e436e902f54129b09\"",
-  "last_modified": "Sat, 24 Oct 2026 22:49:44 GMT"
+  "etag": "\"d12c2195f2eeca6b5ce74cd81e7f1ff5\"",
+  "last_modified": "Sun, 25 Oct 2026 23:07:50 GMT"
  },
  "http://engineering.brandwatch.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
-  "etag": "W/\"ea8a8f6b98a9630b7cb3b0a0656afc0b\"",
-  "last_modified": "Sat, 24 Oct 2026 00:41:49 GMT"
+  "etag": "W/\"436cb0efabc4957ae6cb1fd806549d51\"",
+  "last_modified": "Sun, 25 Oct 2026 00:41:47 GMT"
  },
  "https://www.canva.dev/blog/engineering/feed.xml": {
-  "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "last_status": 304,
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"160af666616feeefcf564c6802ecd61a\"",
   "last_modified": "Sat, 24 Oct 2026 01:08:21 GMT"
  },
  "https://capgemini.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"6ad1dcda-53d42\"",
   "last_modified": "Fri, 16 Oct 2026 08:14:18 GMT"
  },
  "https://engineering.cerner.com/index.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"64933b79-16275\"",
   "last_modified": "Wed, 21 Jun 2023 18:03:37 GMT"
  },
  "https://engineering.clever.com/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "\"739c47ac92a7a664b754cfeeb9d8f2a6\"",
   "last_modified": "Wed, 07 Aug 2024 18:51:03 GMT"
  },
  "https://blog.cloudera.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "etag": "\"1645b-65e9ddedfd6a9-gzip\"",
-  "last_modified": "Sat, 24 Oct 2026 22:46:42 GMT"
+  "etag": "\"1645b-65eb1fd65d9f7-gzip\"",
+  "last_modified": "Sun, 25 Oct 2026 22:46:53 GMT"
  },
  "https://blog.cloudflare.com/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "last_modified": "Fri, 23 Oct 2026 18:22:59 GMT"
  },
  "https://blog.codeship.com/blog/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "last_modified": "Thu, 22 Oct 2026 14:25:24 GMT"
  },
  "https://www.confluent.io/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "etag": "\"d138f23cc0be709e0d802ca058ecaa96-ssl-df\""
+  "etag": "\"fcaaff37459f666e6c677d29ad7ee2df-ssl-df\""
  },
  "https://medium.com/feed/criteo-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://cloud.blog.csc.fi/feeds/posts/default": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"e125d47e986c368522c11e0204dc1cc3c8ce899f73aca5c686c150e91c539386\"",
   "last_modified": "Fri, 13 Feb 2026 11:03:10 GMT"
  },
  "http://engineering.curalate.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"5cefe830-40859\"",
   "last_modified": "Thu, 30 May 2019 14:26:56 GMT"
  },
  "https://www.databricks.com/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:43+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "W/\"339363f0ac3ce7fd9d407660b1c78918\"",
   "last_modified": "Fri, 23 Oct 2026 19:03:45 GMT"
  },
  "https://discord.com/blog/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "last_modified": "Thu, 22 Oct 2026 18:15:22 GMT"
+  "last_modified": "Fri, 23 Oct 2026 13:30:06 GMT"
  },
  "https://www.docker.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "\"0dc801df5b757a77910fbe0d6803862b\"",
   "last_modified": "Fri, 23 Oct 2026 14:59:59 GMT"
  },
  "https://getaround.tech/feed.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
-  "etag": "W/\"275f785dd92a62dbd9d35d69b6008cc5\""
+  "etag": "W/\"c78ef78797d3967a049035b88e723737\""
  },
  "https://dropbox.tech/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://www.ebayinc.com/stories/news/rss/": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
-  "etag": "\"60188ce82361025768f025107c4b09d4\"",
+  "etag": "\"60188ce82361025768f025107c4b09d4-gzip\"",
   "last_modified": "Thu, 22 Oct 2026 16:43:03 GMT"
  },
  "https://medium.com/feed/unexpected-token": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0
  },
  "https://webuild.envato.com/blog/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "last_modified": "Thu, 27 Aug 2026 13:00:15 GMT"
  },
  "https://www.erlang-solutions.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
   "etag": "\"eb38a9fec02bd828b30062bc2694b6ee\"",
   "last_modified": "Mon, 19 Oct 2026 11:31:57 GMT"
  },
  "https://evilmartians.com/chronicles.atom": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:49+00:00",
   "fail_count": 0,
-  "etag": "\"44e8d9701a34eb8f0a5750e3f85aa741-ssl-df\""
+  "etag": "\"cb0dce052bd05272b57b94c2e9f6f54e-ssl-df\""
  },
  "https://medium.com/feed/expedia-group-tech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://engineering.fb.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"226cf8d180f467d89443067b3d3ed23c\"",
   "last_modified": "Thu, 22 Oct 2026 18:35:59 GMT"
  },
  "https://medium.com/feed/feedzaitech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://tech.findmypast.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"6ad87da1-230b2\"",
   "last_modified": "Wed, 21 Oct 2026 08:53:53 GMT"
  },
  "http://tech.finn.no/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"5e8d941b-10f413\"",
   "last_modified": "Wed, 08 Apr 2020 09:06:35 GMT"
  },
  "https://code.flickr.net/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"5d0e4737065b60a9891ba983ad0bc7fa\"",
   "last_modified": "Mon, 14 Feb 2022 17:23:51 GMT"
  },
  "https://freeletics.engineering/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"621d082b-4a2d4\"",
   "last_modified": "Mon, 28 Feb 2022 17:36:43 GMT"
  },
  "http://tech.gc.com/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"68f246ee-ce009\"",
   "last_modified": "Fri, 17 Oct 2025 13:38:54 GMT"
  },
  "https://github.blog/engineering/feed/": {
-  "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "last_status": 304,
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"3f2325d1909bc87f1a30093da989b9e1\"",
   "last_modified": "Sat, 24 Oct 2026 00:58:28 GMT"
  },
  "https://github.blog/feed/": {
-  "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "last_status": 304,
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"3f2325d1909bc87f1a30093da989b9e1\"",
   "last_modified": "Sat, 24 Oct 2026 00:58:28 GMT"
  },
  "https://gocardless.com/content-platform/rss/resources.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"1c74c4-1a168cdcc00\"",
   "last_modified": "Fri, 23 Oct 2026 12:48:00 GMT"
  },
  "https://www.gosquared.com/blog/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "etag": "\"324377b7261cc3a4beb1611901edd124\"",
   "last_modified": "Wed, 11 Mar 2026 15:47:53 GMT",
@@ -351,44 +351,44 @@
  },
  "http://engineering.grab.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"6ad82913-29378\"",
   "last_modified": "Wed, 21 Oct 2026 02:53:07 GMT"
  },
  "https://lambda.blinkit.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:44+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/groupon-eng": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://www.theguardian.com/info/developer-blog/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
-  "etag": "W/\"hash3535899904601065072\""
+  "etag": "W/\"hash2791175847081232838\""
  },
  "http://engineering.hackerearth.com/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"67d9082f-1256bc\"",
   "last_modified": "Tue, 18 Mar 2025 05:44:15 GMT"
  },
  "https://www.haptik.ai/tech/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"dc0f921ea5030d8dff17c6a72d2fc24d\"",
   "last_modified": "Thu, 15 Oct 2026 08:39:28 GMT"
  },
  "https://medium.com/feed/harrys-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://hashrocket.com/blog.rss": {
@@ -401,264 +401,264 @@
  },
  "https://medium.com/feed/helpshift-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://blog.heroku.com/engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/hootsuite-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://www.hostinger.com/blog/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"7404ea746ac7ff81a612af49f273bfd1\"",
   "last_modified": "Fri, 23 Oct 2026 16:49:33 GMT"
  },
  "https://medium.com/feed/engineering-housing": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0
  },
  "https://product.hubspot.com/blog/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"381432bea98ea12df1807284da2f9021\"",
   "last_modified": "Wed, 21 Oct 2026 18:08:13 GMT"
  },
  "https://engineering.indeedblog.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:50+00:00",
   "fail_count": 0,
   "etag": "W/\"de69b1bf7b48ebac4cfb6b7739dc89bc\"",
   "last_modified": "Wed, 12 Aug 2026 00:29:34 GMT"
  },
  "https://tech.instacart.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0
  },
  "https://blogs.janestreet.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "\"6adbcb34-12409\"",
   "last_modified": "Fri, 23 Oct 2026 21:01:40 GMT"
  },
  "https://medium.com/feed/jobteaser-dev-team": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0
  },
  "http://engineering.khanacademy.org/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"5f15cc8a-50ff\"",
   "last_modified": "Mon, 20 Jul 2020 16:55:38 GMT"
  },
  "https://devblog.kogan.com/blog?format=rss": {
-  "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "last_status": 304,
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"4f4230828ebc908b1dde9218166c385f\""
  },
  "https://engineering.linecorp.com/en/blog": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "\"bb331b1a8fdb8eeb1bed9ea60cbbec50\"",
   "last_modified": "Fri, 24 Jul 2026 03:47:43 GMT"
  },
  "https://eng.localytics.com/rss/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:45+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"2b8b6-WhGDtNblWkXl8DEcbR1uocmselQ\""
  },
  "https://eng.lyft.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0
  },
  "https://www.maptiler.com/news/feed/posts.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"22c00-1a140571fb0\"",
   "last_modified": "Thu, 15 Oct 2026 16:13:34 GMT"
  },
  "https://medium.engineering/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0
  },
  "https://d2iq.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
-  "etag": "\"2fccf-65e9ca5c280a0-gzip\"",
-  "last_modified": "Sat, 24 Oct 2026 21:19:09 GMT"
+  "etag": "\"2fcbc-65ead13e8d7eb-gzip\"",
+  "last_modified": "Sun, 25 Oct 2026 16:55:16 GMT"
  },
  "https://devblogs.microsoft.com/python/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"ab23df2c19b645ca912c996b8517a83b\"",
   "last_modified": "Thu, 22 Oct 2026 16:54:11 GMT"
  },
  "https://blog.moove-it.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://hacks.mozilla.org/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "\"96c4593ca1f564757a09b63a9c563900\"",
   "last_modified": "Mon, 24 Aug 2026 15:50:35 GMT"
  },
  "https://planet.mozilla.org/releng/atom.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
-  "etag": "\"8639c1d05ea6b3f5750fac0c05833976-ssl-df\""
+  "etag": "\"01196dce21e56f67a9779ce4c584e9b6-ssl-df\""
  },
  "https://netflixtechblog.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://open.nytimes.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0
  },
  "https://engblog.nextdoor.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0
  },
  "https://nordicapis.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "\"b95d7ea7d753f8e0f252ce99ead218a8\"",
   "last_modified": "Wed, 21 Oct 2026 07:00:00 GMT"
  },
  "https://www.novoda.com/blog/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0,
   "etag": "W/\"54e3164d152f80d0e631eb4a2f01511a\"",
   "last_modified": "Thu, 27 Mar 2025 10:22:13 GMT"
  },
  "https://blog.apps.npr.org/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"6a7c7aeb-11be64\"",
   "last_modified": "Wed, 12 Aug 2026 13:53:47 GMT"
  },
  "https://blogs.nvidia.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
-  "etag": "\"592fe9acd33dcb852641c94a33c321d1-gzip\"",
-  "last_modified": "Sat, 24 Oct 2026 17:45:13 GMT"
+  "etag": "\"fb1239358c244965f9774e8d2d08fa4b-gzip\"",
+  "last_modified": "Sat, 24 Oct 2026 22:53:13 GMT"
  },
  "https://blog.octo.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
-  "etag": "W/\"e7de080b6f809a7737326accf127142e\"",
-  "last_modified": "Sat, 24 Oct 2026 11:48:54 GMT"
+  "etag": "W/\"5aa9c28378f8d717933627d39b14a47c\"",
+  "last_modified": "Sun, 25 Oct 2026 11:22:53 GMT"
  },
  "https://developer.okta.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:46+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "W/\"a8945aa2b4dcddc013dde95f658465a9\"",
   "last_modified": "Mon, 19 Oct 2026 20:39:39 GMT"
  },
  "https://tech.olx.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://umbrella.cisco.com/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:51+00:00",
   "fail_count": 0,
   "etag": "\"56d2be672ed88f17256018fa6c4fbd66\"",
   "last_modified": "Tue, 06 Oct 2026 16:31:48 GMT"
  },
  "https://blog.palantir.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/building-panorama-education": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/paypal-tech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/@Pinterest_Engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://planetscale.com/blog/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "etag": "W/\"858a0-MHDXImXoREOtQASzZ7eGDo3oymM\""
  },
  "https://medium.com/feed/better-practices": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://postmarkapp.com/blog/feed.atom": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://www.pubnub.com/feed/blog/": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0,
-  "last_modified": "Fri, 23 Oct 2026 10:44:51 GMT"
+  "last_modified": "Fri, 23 Oct 2026 11:01:50 GMT"
  },
  "https://www.rea-group.com/category/tech/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "last_modified": "Fri, 23 Oct 2026 06:28:47 GMT"
  },
  "http://engineering.remind.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0,
   "etag": "W/\"65fe0f34-326eb\"",
   "last_modified": "Fri, 22 Mar 2024 23:07:32 GMT"
  },
  "https://engineering.ziffmedia.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://blog.risingstack.com/feed/": {
@@ -669,59 +669,59 @@
  },
  "https://www.rosehosting.com/blog/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:47+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0,
   "etag": "W/\"d452f84648fc209e98bc039c1e70a7b3\"",
   "last_modified": "Tue, 20 Oct 2026 07:00:49 GMT"
  },
  "https://blog.sensible.io/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0,
   "etag": "W/\"5dfc677606bce3ff2b59b70a071352ed\"",
   "last_modified": "Wed, 11 Apr 2018 23:23:36 GMT"
  },
  "https://www.serverless.com/blog/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://www.sharethis.com/platform/social-feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0
  },
  "https://shopify.engineering/blog.atom": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
-  "last_modified": "Sat, 24 Oct 2026 22:31:02 GMT"
+  "last_modified": "Sun, 25 Oct 2026 22:39:55 GMT"
  },
  "https://sitepoint.com/sitepoint.rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://sbg.technology/feed.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/@SkyscannerEng": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://slack.engineering/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:52+00:00",
   "fail_count": 0,
   "etag": "W/\"7536ccb594b0ce403bdae40e1a065d2a\"",
   "last_modified": "Wed, 16 Sep 2026 17:00:25 GMT"
  },
  "https://tech.small-improvements.com/rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "etag": "W/\"d23fc46e5aafcd8ef1e36a559457f417\"",
   "last_modified": "Tue, 12 May 2026 13:59:59 GMT"
@@ -734,31 +734,31 @@
  },
  "https://developers.soundcloud.com/blog/blog.rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "etag": "W/\"6ac70d85-318103\"",
   "last_modified": "Thu, 08 Oct 2026 03:27:01 GMT"
  },
  "https://engineering.atspotify.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://corner.squareup.com/blog/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "last_modified": "Thu, 26 Jun 2025 19:37:04 GMT"
  },
  "https://engineering.squarespace.com/blog?format=rss": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
-  "etag": "W/\"dc4ecba8fe7e37583895f7a9f22702b1\""
+  "etag": "W/\"2f304bb285a65c2afc976791eef88b11\""
  },
  "https://stackoverflow.blog/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "etag": "\"c5b8b00ec794b4624e2aa0a951280b66-ssl-df\""
  },
@@ -768,37 +768,37 @@
   "fail_count": 3
  },
  "https://multithreaded.stitchfix.com/feed.xml": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
-  "etag": "W/\"3920bc7d343babb0359bbf3f2fa43bc2\"",
-  "last_modified": "Thu, 12 Jun 2025 19:16:38 GMT"
+  "etag": "W/\"34dfd1ff1a8ec30ce028d2a323a96fc2\"",
+  "last_modified": "Wed, 10 Jun 2026 21:20:29 GMT"
  },
  "https://medium.com/feed/strava-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://stripe.com/blog/feed.rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://www.surveymonkey.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://target.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:48+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "etag": "W/\"5ceeb89c-31b19\"",
   "last_modified": "Wed, 29 May 2019 16:51:40 GMT"
  },
  "https://engineroom.teamwork.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "http://techblog.thescore.com/feed.xml": {
@@ -810,229 +810,229 @@
  },
  "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
-  "etag": "\"6add3217-b282\"",
-  "last_modified": "Sat, 24 Oct 2026 22:32:55 GMT"
+  "etag": "\"6ade87e9-b282\"",
+  "last_modified": "Sun, 25 Oct 2026 22:51:21 GMT"
  },
  "https://medium.com/feed/thumbtack-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0
  },
  "https://www.timescale.com/blog/rss/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/tinder": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://www.toptal.com/blog.rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:53+00:00",
   "fail_count": 0,
   "etag": "W/\"9d762699cbe12f0985b4d297cfc30fa7\""
  },
  "https://medium.com/feed/wise-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "http://tech.trivago.com/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "etag": "\"84a18deec21129b34fb5ae182e96121a-ssl-df\""
  },
  "https://medium.com/feed/driven-by-code": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://engineering.tumblr.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://www.twilio.com/blog/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
-  "etag": "\"587f-65e8f43469126-gzip\"",
-  "last_modified": "Sat, 24 Oct 2026 05:21:02 GMT"
+  "etag": "\"587f-65ea464f3b44b-gzip\"",
+  "last_modified": "Sun, 25 Oct 2026 06:33:41 GMT"
  },
  "https://vinted.engineering//atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "etag": "W/\"6ad5f480-29abc\"",
   "last_modified": "Mon, 19 Oct 2026 10:44:16 GMT"
  },
  "https://medium.com/feed/vngrs": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://www.aboutwayfair.com/careers/tech-blog.rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:49+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://eng.wealthfront.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "etag": "W/\"11264ae7f40d15f227bdd6f98816dc80\"",
   "last_modified": "Mon, 05 Oct 2026 17:46:12 GMT"
  },
  "https://medium.com/feed/wemake-services": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "http://engineering.wingify.com/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "etag": "W/\"bf27187fe389fc8a98b371e138f88551-ssl-df\""
  },
  "https://tech.new-work.se/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://yahooeng.tumblr.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/yammer-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://zendesk.engineering/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://developerblog.zendesk.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
-  "last_modified": "Sat, 24 Oct 2026 21:57:59 GMT"
+  "last_modified": "Sun, 25 Oct 2026 23:00:49 GMT"
  },
  "https://medium.com/feed/29cm": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://blog.aliencube.org/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "W/\"67a5a3ba-1c4a8\"",
   "last_modified": "Fri, 07 Feb 2025 06:10:02 GMT"
  },
  "https://aws.amazon.com/ko/blogs/korea/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "last_modified": "Fri, 23 Oct 2026 08:00:29 GMT"
  },
  "https://brunch.co.kr/rss/@@b60s": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/ctc-mzc": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://blog.cloudflare.com/ko-kr/rss/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "last_modified": "Fri, 23 Oct 2026 01:50:50 GMT"
  },
  "https://code-200.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://deviantcj.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0
  },
  "http://www.devpools.kr/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "W/\"5b3f203e-12efe2\"",
   "last_modified": "Fri, 06 Jul 2018 07:54:38 GMT"
  },
  "https://medium.com/feed/djangogirlsseoul-codecamp": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0
  },
  "https://www.elastic.co/kr/blog/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/encored-technologies-engineering-data-science": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0
  },
  "http://feeds.feedburner.com/geeknews-feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
-  "last_modified": "Sat, 24 Oct 2026 21:17:32 GMT"
+  "last_modified": "Sun, 25 Oct 2026 23:06:10 GMT"
  },
  "https://tech.finset.io/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "W/\"632c09df-3304e\"",
   "last_modified": "Thu, 22 Sep 2022 07:08:15 GMT"
  },
  "http://feeds.feedburner.com/GoogleDevelopersKorea": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:50+00:00",
+  "checked_at": "2026-10-25T23:07:54+00:00",
   "fail_count": 0,
   "last_modified": "Sun, 18 Oct 2026 23:31:42 GMT"
  },
  "https://gsretail.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://dev.gmarket.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://blog.jetbrains.com/kr/feed/": {
-  "last_status": 200,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "last_status": 304,
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0,
   "etag": "\"0b51d66ba090f2ff248d189c721572e5\"",
   "last_modified": "Sat, 24 Oct 2026 14:02:45 GMT"
  },
  "https://kldp.org/blog/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
-  "etag": "\"1792875891-1\"",
-  "last_modified": "Sat, 24 Oct 2026 21:04:51 GMT"
+  "etag": "\"1792962337-1\"",
+  "last_modified": "Sun, 25 Oct 2026 21:05:37 GMT"
  },
  "https://kofearticle.substack.com/feed": {
   "last_status": 403,
@@ -1042,43 +1042,43 @@
  },
  "http://kotlin.kr/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "W/\"58b8da50-8f7b\"",
   "last_modified": "Fri, 03 Mar 2017 02:52:00 GMT"
  },
  "https://blog.lgcns.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://makinarocks.github.io/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "W/\"67ea6986-49dd0\"",
   "last_modified": "Mon, 31 Mar 2025 10:08:06 GMT"
  },
  "https://mclearninglab.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "http://hacks.mozilla.or.kr/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "\"44ec8d0f9c7b48b83906c51ea0903a57-gzip\"",
   "last_modified": "Wed, 26 Jun 2024 23:38:23 GMT"
  },
  "https://d2.naver.com/d2.atom": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "https://tech.cloud.nongshim.co.kr/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0,
   "etag": "\"5391549620462371347388a55945b9c7-gzip\"",
   "last_modified": "Thu, 22 Oct 2026 02:28:33 GMT"
@@ -1092,121 +1092,121 @@
  },
  "https://meetup.toast.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://ui.toast.com/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0,
   "etag": "W/\"6838218b-34c07\"",
   "last_modified": "Thu, 29 May 2025 08:57:47 GMT"
  },
  "https://medium.com/feed/plustv": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0
  },
  "http://www.popit.kr/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "last_modified": "Wed, 23 Sep 2026 05:44:53 GMT",
-  "etag": "W/\"eba1b-IjJHiJ8HZMMYigECld+gbaFhYm8\""
+  "etag": "W/\"eba1b-EhSxinlPBBLL6GwT1PB8LhMq8rY\""
  },
  "https://rss.mgmt.quotalab.com/tech.rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0,
   "etag": "W/\"70fadff53f4853f9fa817d28050254ea\"",
   "last_modified": "Thu, 03 Aug 2023 02:25:41 GMT"
  },
  "https://medium.com/feed/@riiidtechblog": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:51+00:00",
+  "checked_at": "2026-10-25T23:07:55+00:00",
   "fail_count": 0
  },
  "https://www.samsungsds.com/kr/insights/insight_ko_rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0,
   "etag": "\"617d37b-e8dd7-65e7852a69800\"",
   "last_modified": "Fri, 23 Oct 2026 01:58:56 GMT"
  },
  "https://techblog.samsung.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "http://securityfactory.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "http://blog.rss.naver.com/skelterlabs.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "http://feeds.feedburner.com/skpreadme?format=xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0,
   "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT"
  },
  "https://studyc.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "https://spoqa.github.io/atom.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:52+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0,
-  "etag": "W/\"6a7eceed-1b7347\"",
-  "last_modified": "Fri, 14 Aug 2026 08:16:45 GMT"
+  "etag": "W/\"6a7eceec-1b7347\"",
+  "last_modified": "Fri, 14 Aug 2026 08:16:44 GMT"
  },
  "https://medium.com/feed/styleshare": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://tech.trenbe.com/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0,
   "etag": "W/\"6581194b-6778c\"",
   "last_modified": "Tue, 19 Dec 2023 04:17:15 GMT"
  },
  "https://medium.com/feed/business-canvas": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:56+00:00",
   "fail_count": 0
  },
  "https://www.unrealengine.com/ko/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:53+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "http://engineering.vcnc.co.kr/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0,
   "etag": "\"hofa4bjusj1b7u\""
  },
  "https://medium.com/feed/vingle-tech-blog": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "https://www.vw-lab.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/watcha": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0
  },
  "https://weggle-plus.co.kr/blog/rss.xml": {
@@ -1217,105 +1217,105 @@
  },
  "https://rss.blog.naver.com/codingdaddy.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0
  },
  "https://zuminternet.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0,
   "etag": "W/\"6530e070-10eea\"",
   "last_modified": "Thu, 19 Oct 2023 07:53:20 GMT"
  },
  "https://library.gabia.com/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "etag": "\"79a45421192646f219bf6b6e4de1e298\"",
   "last_modified": "Wed, 21 Oct 2026 02:14:32 GMT"
  },
  "http://feeds.feedburner.com/gamedevforever?format=xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0,
   "last_modified": "Mon, 1 Apr 2024 01:12:42 GMT"
  },
  "https://tech.gluesys.com/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "etag": "W/\"6a86f4bb-66bf9\"",
   "last_modified": "Thu, 20 Aug 2026 12:36:11 GMT"
  },
  "https://blog.nerdfactory.ai/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "checked_at": "2026-10-25T23:07:57+00:00",
   "fail_count": 0,
   "etag": "W/\"660cb367-e1d7d\"",
   "last_modified": "Wed, 03 Apr 2024 01:39:51 GMT"
  },
  "https://rss.blog.naver.com/n_cloudplatform.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/naver-place-dev": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0
  },
  "https://www.nextree.io/rss/": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:54+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
-  "etag": "W/\"7c899-oY7lYk3FGYPH9UJCgoWTO7HK7n0\""
+  "etag": "W/\"7c899-Y3CXlVn2CYu8CFZJSW+KrLYN+Zw\""
  },
  "https://netmarble.engineering/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "etag": "W/\"c5371083a96782eeb45f46caef70796d\"",
   "last_modified": "Wed, 10 Jun 2026 08:11:46 GMT"
  },
  "https://theprogrammertells.blogspot.com/feeds/posts/default?alt=rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "etag": "W/\"5d3fe368305946089e501f2854d9c7df1e2f8353a32af80bdc05050744b9180b\"",
   "last_modified": "Mon, 02 Sep 2024 06:52:36 GMT"
  },
  "https://rss.blog.naver.com/comkang4.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:56+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0
  },
  "https://danawalab.github.io/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "etag": "W/\"68907276-261ec\"",
   "last_modified": "Mon, 04 Aug 2025 08:42:30 GMT"
  },
  "http://techblog.daliworks.net/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:55+00:00",
+  "checked_at": "2026-10-25T23:07:58+00:00",
   "fail_count": 0,
   "etag": "W/\"559b6768-165d6\"",
   "last_modified": "Tue, 07 Jul 2015 05:45:12 GMT"
  },
  "https://blog.dotnetdev.kr/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/daangn": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/pinkfong": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:56+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0
  },
  "https://dailyhotel.io/feed": {
@@ -1325,29 +1325,29 @@
  },
  "https://medium.com/feed/domoverse": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:56+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0
  },
  "https://brunch.co.kr/rss/@@34u4": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://dealicious-inc.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:56+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0,
   "etag": "W/\"651ecd49-5606f\"",
   "last_modified": "Thu, 05 Oct 2023 14:50:49 GMT"
  },
  "https://rss.blog.naver.com/laonple.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0
  },
  "https://techblog.lycorp.co.jp/ko/feed/index.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:56+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0,
   "etag": "W/\"d5b8e57edb849edcbdab46e0bf813962\"",
   "last_modified": "Fri, 23 Oct 2026 04:28:32 GMT"
@@ -1360,228 +1360,228 @@
  },
  "https://ossonazure.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://blog.rocketpunch.com/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0,
   "etag": "\"b1d92fc4a54892fd5c5a208e38c6db2b\"",
   "last_modified": "Mon, 19 Oct 2026 05:26:10 GMT"
  },
  "https://rss.blog.naver.com/rebehayan.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "http://feeds.feedburner.com/imaso": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:56+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0,
   "last_modified": "Sun, 27 Sep 2026 03:22:04 GMT"
  },
  "https://medium.com/feed/team-mangoplate": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:07:59+00:00",
   "fail_count": 0
  },
  "http://www.makered.or.kr/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://brunch.co.kr/rss/@@5fXt": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/modulabs": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://brunch.co.kr/rss/@@c7um": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "http://blog.moramcnt.com/?feed=rss2": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
   "etag": "\"a721286788d7923faa67d9e3c13fdac4-gzip\"",
   "last_modified": "Wed, 13 Nov 2024 06:32:01 GMT"
  },
  "https://musma.github.io/feed.xml": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
-  "etag": "W/\"65dbdb94-6f403\"",
-  "last_modified": "Mon, 26 Feb 2024 00:30:12 GMT"
+  "etag": "W/\"65dbdb93-6f403\"",
+  "last_modified": "Mon, 26 Feb 2024 00:30:11 GMT"
  },
  "https://medium.com/feed/mildang": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "http://boxnwhis.kr/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
   "etag": "W/\"688f568e-96c0c\"",
   "last_modified": "Sun, 03 Aug 2025 12:31:10 GMT"
  },
  "https://blog.banksalad.com/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
   "etag": "W/\"49b8f130f2d64343181c90bc17f84a84\"",
   "last_modified": "Thu, 15 Oct 2026 06:59:58 GMT"
  },
  "https://medium.com/feed/bunjang-tech-blog": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0
  },
  "https://brunch.co.kr/rss/@@30Rl": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://www.blocko.io/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0,
   "etag": "\"c6d8b71b15871b67bff2b469647a7a56\"",
   "last_modified": "Tue, 22 Sep 2026 02:41:18 GMT"
  },
  "https://saramin.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:57+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
   "etag": "W/\"69cb9565-6d79f\"",
   "last_modified": "Tue, 31 Mar 2026 09:35:33 GMT"
  },
  "https://cyberx.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "http://feeds.feedburner.com/comblog": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
   "last_modified": "Sun, 18 Oct 2026 05:08:37 GMT"
  },
  "https://medium.com/feed/supple": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "https://brunch.co.kr/rss/@@63JW": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://rss.blog.naver.com/saltluxmarketing.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "https://startlink.blog/feed/": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:08:00+00:00",
   "fail_count": 0,
-  "last_modified": "Mon, 15 Dec 2025 00:16:37 GMT"
+  "last_modified": "Wed, 25 Feb 2026 20:51:53 GMT"
  },
  "https://blog.stibee.com/feed": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0,
   "etag": "W/\"6ccf6-N6422IF1KDVrRk3vAf4ZcVCmASs\""
  },
  "https://rss.blog.naver.com/spartacoding.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "http://slownews.kr/category/tech/feed": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0,
-  "etag": "W/\"4e0018b78581255fd28b6d0d6799c6bc\"",
-  "last_modified": "Fri, 23 Oct 2026 09:06:42 GMT"
+  "etag": "W/\"db0ee3a86cfad53fcc68e89eb720fa96\"",
+  "last_modified": "Sun, 25 Oct 2026 22:31:21 GMT"
  },
  "https://medium.com/feed/@slid": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "https://gblogs.cisco.com/kr/feed/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0,
   "etag": "\"adcd2a6fa8dd737b999390ac98afe267\"",
   "last_modified": "Fri, 23 Oct 2026 05:57:34 GMT"
  },
  "https://cntechsystems.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/athenaslab": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://devahea.github.io/atom.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:58+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0,
   "etag": "W/\"5da2b4b8-53fa\"",
   "last_modified": "Sun, 13 Oct 2019 05:23:04 GMT"
  },
  "https://rss.blog.naver.com/educoding.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/stclab-tech-blog": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://rss.blog.naver.com/skaibril.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0
  },
  "https://raw.githubusercontent.com/ab180/engineering-base/master/feed-ab180.rss": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:01+00:00",
   "fail_count": 0,
   "etag": "W/\"3d1df5134fc02852c5e862cc69d7776ea77032e9fccd0916d72ab91d1aaa8923\""
  },
  "https://feeds.feedburner.com/acornpub": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0,
   "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT"
  },
  "http://blog.embian.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://blog.doctor-cha.com/_feather/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0
  },
  "https://tech.osci.kr/rss/": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0,
   "etag": "\"59a3da208b3786400bb8ecb6cd080c5d\"",
   "last_modified": "Tue, 13 Oct 2026 01:46:20 GMT"
@@ -1595,34 +1595,34 @@
  },
  "https://blog.ubuntu-kr.org/index.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:49:59+00:00",
+  "checked_at": "2026-10-25T23:08:02+00:00",
   "fail_count": 0,
   "etag": "W/\"687fc498-6335\"",
   "last_modified": "Tue, 22 Jul 2025 17:04:24 GMT"
  },
  "https://medium.com/feed/wantedjobs": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/monday-9-pm": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://techblog.yogiyo.co.kr/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/wematch": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/@etherstudy": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "http://blog.weirdx.io/feed/": {
@@ -1634,181 +1634,181 @@
  },
  "https://blog.alyac.co.kr/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:04+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0
  },
  "https://blog.est.ai/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0,
   "etag": "W/\"64102143-4f78\"",
   "last_modified": "Tue, 14 Mar 2023 07:24:51 GMT"
  },
  "http://blog.insightbook.co.kr/rss": {
-  "last_status": 304,
-  "checked_at": "2026-10-24T22:50:00+00:00",
+  "last_status": 200,
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0,
-  "last_modified": "Wed, 26 Aug 2026 06:42:36 GMT"
+  "last_modified": "Wed, 26 Aug 2026 06:40:10 GMT"
  },
  "https://v2.velog.io/rss/medistream": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/elecle-bike": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://rss.blog.naver.com/infobaksa.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://jennifersoft.com/ko/category/blog/tech/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0,
   "etag": "\"305ee892af8089a284e2af14cbf9ae99-gzip\"",
   "last_modified": "Mon, 19 Oct 2026 02:19:42 GMT"
  },
  "http://jinson.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://blog.zarathu.com/index.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0,
   "etag": "\"95e9cc3428595db3aa68cc358a7512ef-ssl-df\""
  },
  "https://tech.kakao.com/feed/": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://tech.kakaoenterprise.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://devblog.kakaostyle.com/ko/index.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0,
   "etag": "W/\"0ad1af244065926ffba2dfd4b4b452fb\"",
   "last_modified": "Mon, 31 Aug 2026 06:52:08 GMT"
  },
  "https://tech.kakaopay.com/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:01+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0,
   "etag": "\"6aaa2277-ee\"",
   "last_modified": "Wed, 16 Sep 2026 05:00:39 GMT"
  },
  "https://medium.com/feed/code-states": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://rss.blog.naver.com/codeitofficial.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://rss.blog.naver.com/codinggenius.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:03+00:00",
   "fail_count": 0
  },
  "https://developer.comento.kr/rss.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0,
   "etag": "W/\"d092ba63de473cb7a0395df95f28ec20\"",
   "last_modified": "Thu, 14 May 2026 06:22:23 GMT"
  },
  "https://rss.blog.naver.com/collabee.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/coupang-engineering": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://rss.blog.naver.com/qualcommkr.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://v2.velog.io/rss/qroffle": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://www.cubrid.com/blog/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:04+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0,
-  "last_modified": "Sat, 24 Oct 2026 22:50:03 GMT"
+  "last_modified": "Sun, 25 Oct 2026 23:08:05 GMT"
  },
  "https://medium.com/feed/kmong": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/tabling-tech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "http://techneedle.com/feed": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:04+00:00",
+  "checked_at": "2026-10-25T23:08:06+00:00",
   "fail_count": 0,
   "etag": "\"e1545c3da9caec1a46ffa809d88e55aa-gzip\"",
   "last_modified": "Thu, 03 Sep 2026 00:08:47 GMT"
  },
  "https://toss.tech/rss.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:05+00:00",
+  "checked_at": "2026-10-25T23:08:06+00:00",
   "fail_count": 0
  },
  "https://tosslab.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:02+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0,
   "etag": "W/\"60f934f5-35a5f\"",
   "last_modified": "Thu, 22 Jul 2021 09:05:57 GMT"
  },
  "https://rss.blog.naver.com/tmondev.xml": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/@pfdev": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:04+00:00",
   "fail_count": 0
  },
  "https://snack.planetarium.dev/kor/index.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0,
   "etag": "W/\"67fe0c1e-4a8ad\"",
   "last_modified": "Tue, 15 Apr 2025 07:34:54 GMT"
  },
  "https://medium.com/feed/platfarm": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0
  },
  "https://team-platform.tistory.com/rss": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:05+00:00",
+  "checked_at": "2026-10-25T23:08:06+00:00",
   "fail_count": 0
  },
  "https://hamonikr.org/rss": {
@@ -1819,24 +1819,24 @@
  },
  "https://hyperconnect.github.io/feed.xml": {
   "last_status": 304,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0,
   "etag": "W/\"69e85dc8-574d1\"",
   "last_modified": "Wed, 22 Apr 2026 05:34:00 GMT"
  },
  "https://medium.com/feed/greendatakr": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/prnd": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0
  },
  "https://medium.com/feed/humanscape-tech": {
   "last_status": 200,
-  "checked_at": "2026-10-24T22:50:03+00:00",
+  "checked_at": "2026-10-25T23:08:05+00:00",
   "fail_count": 0
  }
 }
