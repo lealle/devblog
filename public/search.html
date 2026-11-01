@@ -5,7 +5,7 @@
 :root{color-scheme:light dark}*{box-sizing:border-box}body{font-family:system-ui,-apple-system,sans-serif;max-width:920px;margin:0 auto;padding:24px 16px 80px;line-height:1.55}
 a{color:inherit}header{display:flex;align-items:center;justify-content:space-between;gap:12px}h1{font-size:23px}
 .controls{display:grid;grid-template-columns:1fr auto auto;gap:8px;margin:20px 0}input,select,button{font:inherit;padding:11px;border:1px solid #999;border-radius:8px;background:transparent;color:inherit}
-button{cursor:pointer}.item{border-bottom:1px solid #8885;padding:14px 0}.item a{font-weight:600;text-decoration:none}.item a:hover{text-decoration:underline}
+button{cursor:pointer}.mode{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.mode button[aria-pressed="true"]{background:#2456a6;color:white;border-color:#2456a6}.path{border:1px solid #8885;border-radius:10px;padding:12px;margin:16px 0}.path h2{font-size:16px;margin:0 0 8px}.path ol{margin:0;padding-left:22px}.path li{margin:8px 0}.path small{color:gray;display:block}.item{border-bottom:1px solid #8885;padding:14px 0}.item a{font-weight:600;text-decoration:none}.item a:hover{text-decoration:underline}
 .meta,.summary,#status{color:gray;font-size:13px}.summary{margin:5px 0}#more{margin:20px auto;display:block}
 @media(max-width:640px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}}
 </style></head><body>
@@ -14,11 +14,12 @@ button{cursor:pointer}.item{border-bottom:1px solid #8885;padding:14px 0}.item a
 <div class="controls"><input id="q" type="search" placeholder="예: JPA N+1, 장애, Kubernetes" aria-label="검색어">
 <select id="region" aria-label="지역"><option value="">전체 지역</option><option value="KR">국내</option><option value="EN">해외</option></select>
 <select id="topic" aria-label="기술 분야"><option value="">전체 기술</option><option>Backend</option><option>Frontend</option><option>Database</option><option>Infrastructure</option><option>AI/ML</option><option>Security</option><option>Architecture</option><option>Engineering</option></select><select id="sort" aria-label="정렬"><option value="recent">최신순</option><option value="relevance">관련도순</option></select></div>
+<div class="mode" aria-label="검색 목적"><button type="button" id="mode-general" aria-pressed="true">일반 검색</button><button type="button" id="mode-solve" aria-pressed="false">문제 해결 경로</button></div><section id="path" class="path" hidden aria-live="polite"></section>
 <p id="status" role="status">검색 색인을 불러오는 중입니다.</p><main id="results"></main><button id="more" hidden>결과 더 보기</button>
 <script>
 "use strict";
 const $ = id => document.getElementById(id);
-let articles = [], matches = [], visible = 0;
+let articles = [], matches = [], visible = 0, mode = "general";
 const PAGE = 30;
 function normalize(s){return (s || "").toLocaleLowerCase().normalize("NFKC");}
 function score(a,terms){
@@ -32,7 +33,44 @@ function search(){
   if($("sort").value==="relevance"&&terms.length){
     matches.sort((a,b)=>score(b,terms)-score(a,terms)||((b.published||b.collected||"").localeCompare(a.published||a.collected||"")));
   }
-  visible=0;$("results").replaceChildren();append();
+  visible=0;$("results").replaceChildren();renderPath(terms);append();
+}
+function renderPath(terms){
+  const panel=$("path");panel.replaceChildren();panel.hidden=mode!=="solve";
+  if(panel.hidden)return;
+  const heading=document.createElement("h2");heading.textContent="문제 해결 문서 경로 (자동 추천)";
+  const note=document.createElement("p");note.className="meta";
+  note.textContent="제목과 요약의 키워드로 분류한 참고 자료입니다. 실제 해결 순서나 정확성을 보증하지 않습니다.";
+  panel.append(heading,note);
+  if(!terms.length){const p=document.createElement("p");p.textContent="해결할 문제나 기술을 검색해 주세요.";panel.append(p);return;}
+  const stages=[
+    ["원인 파악",a=>a.content_type==="troubleshooting"],
+    ["해결 방법 탐색",a=>a.content_type==="tutorial"||/해결|개선|fix|solution|workaround/i.test(a.title||"")],
+    ["대안 비교",a=>a.content_type==="comparison"],
+    ["실무 검증",a=>/테스트|검증|성능|benchmark|test|performance|latency/i.test((a.title||"")+" "+(a.summary||""))]
+  ];
+  const used=new Set(), list=document.createElement("ol");
+  for(const [stage,predicate] of stages){
+    const found=matches.filter(a=>!used.has(a.hash)&&predicate(a))
+      .sort((a,b)=>score(b,terms)-score(a,terms))[0];
+    if(!found)continue;
+    used.add(found.hash);
+    const li=document.createElement("li"), label=document.createElement("strong");
+    label.textContent=stage+" · ";
+    const a=document.createElement("a");a.href=found.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=found.title;
+    const detail=document.createElement("small");detail.textContent=found.feed||"출처 미상";
+    li.append(label,a,detail);list.append(li);
+  }
+  if(list.childElementCount)panel.append(list);
+  else{const p=document.createElement("p");p.textContent="현재 검색 결과에서 단계별 추천 자료를 찾지 못했습니다.";panel.append(p);}
+}
+$("mode-general").addEventListener("click",()=>setMode("general"));
+$("mode-solve").addEventListener("click",()=>setMode("solve"));
+function setMode(next){
+  mode=next;
+  $("mode-general").setAttribute("aria-pressed",String(mode==="general"));
+  $("mode-solve").setAttribute("aria-pressed",String(mode==="solve"));
+  search();
 }
 function append(){
   const end=Math.min(visible+PAGE,matches.length);
