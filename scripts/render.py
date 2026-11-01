@@ -172,6 +172,7 @@ def main() -> int:
         "<title>기술블로그 모아보기</title>",
         f"<style>{CSS}</style></head><body>",
         "<h1>기술블로그 모아보기</h1>",
+        "<p><a href='search.html'>전체 수집 문서 검색 →</a></p>",
         f"<div class='meta'>최근 {DAYS}일 · {len(recent)}건 · "
         f"누적 {len(articles)}건 · 갱신 "
         f"{datetime.now().strftime('%Y-%m-%d %H:%M')} UTC</div>",
