@@ -1,6 +1,7 @@
 """Build a compact, static, searchable catalogue from all collected articles."""
 import json
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "data" / "articles"
@@ -18,7 +19,7 @@ def build_index(source=SOURCE):
             except json.JSONDecodeError as exc:
                 raise ValueError(f"{path}:{line_no}: invalid JSON") from exc
             key = article.get("hash")
-            if not key or not article.get("url"):
+            if not key or not article.get("url") or urlsplit(article["url"]).scheme not in ("http", "https"):
                 continue
             by_id[key] = {field: article.get(field, "") for field in FIELDS}
     return sorted(by_id.values(), key=lambda a: (a["published"] or a["collected"], a["hash"]), reverse=True)
