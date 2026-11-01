@@ -29,6 +29,7 @@ ARTICLES = DATA / "articles"
 TIMEOUT = 15
 WORKERS = 16
 MAX_FAIL = 3          # 연속 실패가 이 횟수에 닿으면 피드를 쉬게 한다
+RETRY_DAYS = 7        # 휴면 피드 재확인 주기
 MAX_AGE_DAYS = 30     # 이보다 오래된 글은 저장하지 않는다
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
@@ -98,6 +99,7 @@ def fetch_feed(feed: dict, state: dict) -> tuple[str, list[dict], dict]:
     try:
         r = requests.get(url, headers=headers, timeout=TIMEOUT)
     except Exception as e:
+        st["checked_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         st["fail_count"] = st.get("fail_count", 0) + 1
         st["last_error"] = type(e).__name__
         return "error", [], st
@@ -167,6 +169,23 @@ def append_articles(items: list[dict]) -> int:
     return len(items)
 
 
+def should_check_feed(feed: dict, state: dict, now=None) -> bool:
+    """Retry paused feeds periodically rather than suppressing them forever."""
+    st = state.get(feed["feed_url"], {})
+    if st.get("fail_count", 0) < MAX_FAIL:
+        return True
+    checked = st.get("checked_at")
+    if not checked:
+        return True
+    try:
+        last = datetime.fromisoformat(checked.replace("Z", "+00:00"))
+        if last.tzinfo is None:
+            last = last.replace(tzinfo=timezone.utc)
+        return (now or datetime.now(timezone.utc)) - last >= timedelta(days=RETRY_DAYS)
+    except (TypeError, ValueError):
+        return True
+
+
 def main() -> int:
     feeds = json.loads((DATA / "feeds.json").read_text(encoding="utf-8"))
 
@@ -176,7 +195,7 @@ def main() -> int:
     seen_path = DATA / "seen.txt"
     seen = set(seen_path.read_text(encoding="utf-8").split()) if seen_path.exists() else set()
 
-    active = [f for f in feeds if state.get(f["feed_url"], {}).get("fail_count", 0) < MAX_FAIL]
+    active = [f for f in feeds if should_check_feed(f, state)]
     print(f"대상 피드 {len(active)}개 (전체 {len(feeds)}, 휴면 {len(feeds) - len(active)})")
 
     start = time.time()

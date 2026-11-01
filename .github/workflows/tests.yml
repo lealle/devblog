@@ -1,0 +1,27 @@
+name: tests
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Check browser JavaScript syntax
+        run: |
+          python -c "from pathlib import Path; s=Path('public/search.html').read_text(); Path('/tmp/devblog-search.js').write_text(s.split('<script>',1)[1].split('</script>',1)[0])"
+          node --check /tmp/devblog-search.js
+      - name: Build smoke test
+        run: |
+          python scripts/render.py
+          python scripts/build_search_index.py
+          python -c "import json; from pathlib import Path; p=Path('public/search-index.json'); a=json.loads(p.read_text()); assert isinstance(a,list); assert Path('public/search.html').exists(); print(len(a), 'articles indexed')"
