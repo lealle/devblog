@@ -3,6 +3,11 @@ import json
 from pathlib import Path
 from urllib.parse import urlsplit
 
+try:
+    from scripts.classify_articles import classify
+except ModuleNotFoundError:
+    from classify_articles import classify
+
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "data" / "articles"
 OUTPUT = ROOT / "public"
@@ -21,7 +26,7 @@ def build_index(source=SOURCE):
             key = article.get("hash")
             if not key or not article.get("url") or urlsplit(article["url"]).scheme not in ("http", "https"):
                 continue
-            by_id[key] = {field: article.get(field, "") for field in FIELDS}
+            by_id[key] = {**{field: article.get(field, "") for field in FIELDS}, **classify(article)}
     return sorted(by_id.values(), key=lambda a: (a["published"] or a["collected"], a["hash"]), reverse=True)
 
 def main():
