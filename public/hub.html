@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="기업 기술 블로그, 디자인 사례, 상황별 AI 프롬프트를 한곳에서 찾는 개발 자료 허브">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <title>Dev Resource Hub · 읽고, 고르고, 적용하기</title>
   <link rel="stylesheet" href="./hub.css">
+  <link rel="stylesheet" href="./hub-refresh.css">
   <script src="./hub.js" defer></script>
 </head>
 <body>
@@ -39,7 +40,7 @@
         <p>공개 디자인은 이 화면에서 검색합니다. 기술 블로그는 전문 검색으로, 비공개 프롬프트는 권한 확인 후 원본 저장소로 연결됩니다.</p>
       </div>
       <form id="search-form" role="search">
-        <label for="search-input">디자인 검색</label>
+        <label for="search-input">디자인 검색 · 실제 시안 미리보기</label>
         <div class="search-row">
           <input id="search-input" type="search" autocomplete="off" placeholder="예: 에디토리얼, 카드, 모바일, 매거진">
           <button type="submit">검색</button>
@@ -56,11 +57,32 @@
           <select id="category"><option value="">모든 분야</option></select>
         </label>
       </div>
-      <p class="status" id="status" role="status" aria-live="polite">목록을 불러오는 중입니다.</p>
+      <p class="status" id="status" role="status" aria-live="polite">실제 디자인 목록을 불러오는 중입니다.</p>
+      <p class="preview-note">각 카드에는 실제 시안의 축소 화면이 표시됩니다. <strong>이 화면에서 미리보기</strong>를 누르면 큰 화면으로 확인하고 레이아웃을 전환할 수 있습니다. 원본 링크는 현재 창에서 열립니다.</p>
       <div id="results" class="results" tabindex="-1"></div>
       <button type="button" id="load-more" class="load-more" hidden>결과 더 보기</button>
     </section>
   </main>
+  <dialog id="preview-dialog" class="preview-dialog" aria-labelledby="preview-title">
+    <div class="preview-header">
+      <div class="preview-heading">
+        <span class="eyebrow">LIVE DESIGN PREVIEW</span>
+        <h2 id="preview-title">디자인 미리보기</h2>
+        <p id="preview-context">실제 시안을 로드합니다.</p>
+      </div>
+      <button type="button" id="preview-close" class="preview-close" aria-label="미리보기 닫기">닫기 ×</button>
+    </div>
+    <div class="preview-toolbar">
+      <div id="preview-modes" class="preview-modes" role="group" aria-label="시안 콘텐츠 전환">
+        <button type="button" data-mode="blog" aria-pressed="true">개발 블로그</button>
+        <button type="button" data-mode="home" aria-pressed="false">메인</button>
+        <button type="button" data-mode="prompts" aria-pressed="false">프롬프트 예시</button>
+      </div>
+      <a id="preview-original" href="https://lealle.github.io/design-atlas/" rel="noopener noreferrer">전체 화면에서 원본 열기 ↗</a>
+    </div>
+    <div id="preview-viewport" class="preview-viewport" aria-label="실제 디자인 미리보기 화면"></div>
+    <p class="preview-help">디자인이 표시되지 않으면 <strong>전체 화면에서 원본 열기</strong>를 사용하세요. 프롬프트 시안은 예시 콘텐츠이며 비공개 자료를 포함하지 않습니다.</p>
+  </dialog>
   <footer>
     <p>공개 디자인만 정적 색인에 게시합니다. 비공개 프롬프트 내용은 이 사이트에 저장하거나 노출하지 않습니다.</p>
     <p><a href="https://github.com/lealle/devblog">DevBlog</a> · <a href="https://github.com/lealle/design-atlas">Design Atlas</a> · <a href="https://github.com/lealle/prompt-library">Prompt Library</a></p>
