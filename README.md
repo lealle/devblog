@@ -8,6 +8,21 @@ DB 서버가 없다. 상태는 전부 저장소 안의 파일에 있고, GitHub 
 # 만든 이유
 국내외 기업·기관들의 프로그래밍 능력을 배우고자 새 글을 매일 모아 공부하기 위하여 만들었음.
 
+## 통합 자료 허브 (Dev Resource Hub)
+
+- [통합 화면](https://lealle.github.io/devblog/hub.html) · [전체 기술 문서 검색](https://lealle.github.io/devblog/search.html)
+- [Design Atlas](https://github.com/lealle/design-atlas)와 [Prompt Library](https://github.com/lealle/prompt-library)의 **공개 자료만** 빌드 시 가져옵니다.
+- 프롬프트는 이 화면에서 검색·원문 미리보기·복사할 수 있습니다. 디자인 시안은 실제 Design Atlas 화면으로 연결합니다.
+- 기술 블로그 원문은 기존 수집·전체 검색 화면에서 열고, 통합 화면에서 같은 검색어를 넘길 수 있습니다.
+- 빌드 절차, 데이터 계약, 예외 상황, DevKit 분리 판단은 [통합 설계 문서](docs/RESOURCE_HUB_INTEGRATION_2026-11-06.md)를 확인하세요.
+- **DevKit은 별도 비공개 Claude Code 플러그인입니다.** 실행 도구를 공개 웹 페이지에 복제하거나 결합하지 않습니다.
+
+\`\`\`bash
+python scripts/build_resource_hub.py --prompts-root _sources/prompt-library --design-index _sources/design-atlas/docs/designs.json
+python -m unittest discover -s tests -p 'test_*.py'
+node --check public/hub.js
+\`\`\`
+
 ## 빠른 시작
 
 ```bash
