@@ -60,7 +60,7 @@ class ReadingUIGuardTests(unittest.TestCase):
                        'id="preview-modes"', 'id="preview-original"'):
             self.assertIn(marker, html)
         self.assertIn("frame-src 'self'", html)
-        self.assertIn('href="./hub-refresh.css"', html)
+        self.assertIn('href="./hub-refresh.css?v=20261106b"', html)
         self.assertIn("IntersectionObserver", script)
         self.assertIn('frame.loading = thumbnail ? "lazy"', script)
         self.assertIn('frame.src = previewUrl(item, state.mode)', script)
