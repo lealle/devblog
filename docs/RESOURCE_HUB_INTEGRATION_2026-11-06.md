@@ -1,106 +1,89 @@
-# Dev Resource Hub — 공개 3개 프로젝트 통합 설계 및 DevKit 분리 검토
+# Dev Resource Hub — 통합 설계 및 비공개 저장소 경계
 
 기준일: 2026-11-06  
-상태: **통합 기능 개발 브랜치 / PR 검증 대상**. 이 문서는 병합·배포 완료를 의미하지 않습니다.
+상태: **PR 개발 및 검증 중**. 병합·실제 배포 상태는 GitHub Actions와 Pages에서 별도 확인합니다.
 
-## 1. 결론
+## 1. 검토 결과
 
-**DevBlog + Design Atlas + Prompt Library를 하나의 탐색 경험으로 통합하되, 저장소와 데이터 수집 파이프라인은 분리 유지**합니다. 공통 진입점은 `devblog/public/hub.html`이며, 다음 두 공개 저장소의 자료를 빌드 시 읽어 정적 JSON으로 출판합니다.
-
-| 프로젝트 | 현재 책임 | 통합되는 기능 | 원본 소유권 |
+| 저장소 | 접근 수준 | 역할 | 현재 통합 방법 |
 | --- | --- | --- | --- |
-| DevBlog | 기업·기관 RSS 수집 및 수년치 문서 검색 | 키워드 연계 검색, 학습 경로 진입 | DevBlog에 그대로 |
-| Design Atlas | 100개 정적 시안, 42개 체험, Notion 디자인 | 100개 시안/42개 체험 검색과 실제 화면 이동 | Design Atlas에 그대로 |
-| Prompt Library | 상황별 한국어 중심 프롬프트 76개 | 카테고리/텍스트 검색, 원문 미리보기, 복사 | Prompt Library에 그대로 |
-| DevKit | 비공개 Claude Code 플러그인, 규칙·스킬·guard·eval | 이번 통합에는 포함하지 않음 | DevKit에 그대로 |
+| DevBlog | 공개 | 기업·기관 기술 문서 수집 및 검색 | 기존 검색과 허브 간 양방향 이동 |
+| Design Atlas | 공개 | 100개 디자인, 42개 체험형 디자인 | 디자인 색인을 빌드 시 가져와 허브에서 검색·미리보기 링크 |
+| Prompt Library | **비공개** | 76개 상황별 프롬프트 | 비공개 GitHub 원본 링크만 제공. 내용·제목·목록을 공개 사이트에 복사하지 않음 |
+| DevKit | **비공개** | Claude Code 규칙·스킬·훅·검증 도구 | 통합하지 않음. 추후 개발 환경용 선택적 연결만 검토 |
 
-### 왜 모노레포로 병합하지 않았나
+핵심 결론: **공개 웹을 한 곳으로 묶되 비공개 저장소의 접근 권한을 절대로 완화하지 않습니다.**
 
-- **제품 경계가 다릅니다.** DevBlog는 Python RSS 데이터 처리, Design Atlas는 Node 정적 UI 빌드, Prompt Library는 Markdown 아카이브입니다.
-- 모노레포로 이동하면 GitHub Pages 경로, 기존 즐겨찾기, 독립 CI, Git 히스토리, 갱신 작업이 한꺼번에 변경됩니다.
-- 웹상의 **탐색 입구만 결합**해도 한곳에서 필요한 자료를 찾는 목표를 먼저 충족할 수 있습니다.
-- 향후 진짜 단일 앱으로 이전할지 여부는 사용 데이터, 검색 품질, 독립 배포 비용을 확인한 뒤 결정합니다.
+원래 검토한 방식인 Prompt Library 전문을 DevBlog GitHub Pages로 가져오는 것은 비공개 데이터를 공개하는 문제가 있어 **폐기했습니다**. 실제 CI에서도 DevBlog의 GitHub Actions 토큰으로는 비공개 Prompt Library를 checkout할 수 없음이 확인되었습니다. 개인 액세스 토큰을 새로 넣거나 공개 권한을 변경하지 않습니다.
 
-## 2. 실제 사용자 흐름
+## 2. 사용자 흐름과 제공 기능
 
-1. `hub.html`에서 프롬프트와 디자인을 한 검색창으로 찾습니다.
-2. 원하는 분야 및 자료 유형으로 필터링하거나, 프롬프트 본문을 열고 복사합니다.
-3. 디자인을 선택하면 Design Atlas의 실제 정적 시안 또는 체험 페이지가 새 창으로 열립니다.
-4. 같은 검색어로 기술 사례를 찾을 때 `search.html?q=...`로 이동합니다.
-5. 원문 출처와 GitHub 저장소 링크를 계속 표시합니다.
+- 통합 진입점은 `public/hub.html`입니다.
+- DevBlog에서 문제 해결 문서를 탐색합니다. 허브의 검색어를 `search.html?q=...`로 전달할 수 있습니다.
+- 공개 Design Atlas의 100개 시안과 42개 체험형 디자인을 한 화면에서 검색하고 화면을 열어 볼 수 있습니다.
+- Prompt Library는 비공개 GitHub 링크로 이동합니다. 권한이 없는 사용자에게는 GitHub에서 접근 불가로 표시되며, 사이트에서 이를 우회하지 않습니다.
+- 각 원본 저장소와 수집 파이프라인은 변경하지 않습니다.
 
-**검색 한계:** 수년치 DevBlog 기사 색인을 허브가 다시 다운로드하지 않습니다. 블로그 자체 검색 페이지로 쿼리를 넘기며, 추후 통합 색인 구현 시 기존 검색 성능의 병목부터 측정해야 합니다.
+**한계:** 공개 허브 안에서 비공개 프롬프트를 검색·미리보기·복사하는 기능은 구현하지 않았습니다. 이를 추가하려면 인증된 비공개 앱 또는 사용자별 로컬 도구가 필요합니다. GitHub Pages는 개인별 자료 접근 제어를 대신하지 않습니다.
 
-## 3. 데이터 구조 및 동기화
+## 3. 기술 구성
 
-- `scripts/build_resource_hub.py`가 `_sources/prompt-library/prompts/*/*.md`와 `_sources/design-atlas/docs/designs.json`을 읽습니다.
-- 결과는 `public/hub-data.json`이며, `schema: 1`, `source`, `counts`, `items[]`를 담습니다.
-- 각 item은 `id`, `kind`, `title`, `category`, `category_label`, `description`, `url`을 공통으로 가집니다. 프롬프트에는 `content`, 시안에는 `number`, `style` 등이 추가됩니다.
-- GitHub Actions의 `collect.yml`은 **공개** 형제 저장소를 sparse checkout한 뒤 RSS 및 검색 인덱스와 함께 허브 색인을 빌드합니다.
-- `tests.yml`은 동일 공개 소스에서 허브 데이터 생성, 데이터 개수, 브라우저 JS 구문, Python 단위 테스트를 검증합니다.
-- Git 추적 외부 소스는 `_sources/`로 가져오며 `.gitignore`로 제외합니다.
-- 출력 파일은 임시 파일을 거쳐 교체하므로 입력 오류 발생 시 기존 출력물은 그대로 남습니다. 다만 워크플로는 실패 상태로 보고하여 잘못된 신뢰를 방지합니다.
-- JSON은 결정적 순서로 출력합니다. 새 자료가 없어도 매 빌드마다 변화하는 타임스탬프 필드는 넣지 않습니다.
+- `scripts/build_resource_hub.py`: `_sources/design-atlas/docs/designs.json`만 읽어 `public/hub-data.json` 생성
+- `public/hub-data.json`: 공개 디자인 시안·체험형 디자인만 수록. `schema: 2` 및 `source`, `counts`, `items[]`
+- `public/hub.js`: 검색, 유형/세부 분야 필터, 결과 더 보기, URL 쿼리 상태, 기술 문서 검색 전달
+- `public/hub.css`: 반응형, 색 대비, 키보드 포커스, 움직임 감소 지원
+- `public/hub.html`: 공개 자료 탐색과 비공개 프롬프트 **외부 권한 검증 링크**
+- `scripts/render.py`, `public/search.html`: 기존 사이트에서 허브로 이동 및 검색어 프리필
+- `.github/workflows/collect.yml`과 `tests.yml`: 공개 Design Atlas만 sparse checkout 후 허브 색인 생성·검사
+- `tests/test_resource_hub.py`: 유효성, 중복, 안전한 ID, 결정적 빌드, 비공개 데이터 배제 테스트
 
-## 4. 보안·성능·접근성
+외부 공개 데이터를 새로 받아오지 못하면 빌드는 실패 상태를 기록하며, 기존 정적 색인 파일은 임시 파일 교체 방식으로 보존합니다. 현재 색인 파일은 공개 디자인 메타데이터만 포함합니다.
 
-- 소스 Markdown은 브라우저에서 `textContent`로 표시하므로 HTML을 실행하지 않습니다.
-- 외부 이동은 승인한 HTTPS GitHub/Pages 호스트로 제한합니다. 외부 링크에는 `noopener noreferrer`를 사용합니다.
-- 공개 프롬프트만 복제하므로 **DevKit 비공개 소스나 개발 환경의 설정·훅은 노출되지 않습니다**.
-- 정적 데이터만 읽으며 계정, 쿠키, 서버, 유료 API, 개인정보 저장소가 필요하지 않습니다.
-- 검색은 24개씩 추가 출력하여 초기 DOM 노드 수를 제한합니다. 색인은 현재 클라이언트 측 전체 다운로드이므로 규모 확대 시 분할/검색 엔진 교체가 필요합니다.
-- 검색·필터·복사·닫기 기능은 키보드로 조작 가능하며 포커스 스타일, 상태 알림, 모바일 레이아웃, 움직임 감소를 지원합니다.
-- Design Atlas의 기존 로컬 즐겨찾기는 브라우저·출처(origin)가 달라 자동 공유할 수 없습니다. 이를 허위로 약속하지 않습니다.
+## 4. 왜 세 저장소를 한 레포로 합치지 않았나
 
-## 5. DevKit 검토 — **별도 유지, 선택적으로 연결**
+- DevBlog는 Python RSS 배치, Design Atlas는 Node 정적 웹 빌드, Prompt Library는 Markdown 문서 아카이브로 역할이 구분됩니다.
+- 모두 이동하면 링크·Git 히스토리·배포 설정·자동화가 불필요하게 바뀝니다.
+- 무엇보다 Prompt Library를 공개 DevBlog 저장소로 합치는 것은 의도치 않은 데이터 공개를 초래할 수 있습니다.
+- **공통 진입 화면 + 독립 원본** 구조가 현재 안전하고 유지관리가 간단합니다.
 
-DevKit은 `SessionStart`, `PreToolUse`, 스킬, 검증과 평가를 제공하는 **실행 가능한 개발 플러그인**입니다. 이를 공개 콘텐츠 허브와 직접 섞으면 배포 권한, 보안 경계, 업데이트 책임이 혼란스러워집니다.
+## 5. DevKit 별도 유지 결정
 
-**추천 경계**
+DevKit은 단순 자료가 아니라 Claude Code의 SessionStart/PreToolUse 훅, 안전 규칙, 개발 스킬, 평가를 실행하는 플러그인입니다.
 
-- DevKit → DevBlog: 조사 단계에서 검증 가능한 자료를 찾아볼 수 있는 검색 링크만 제공(선택적).
-- DevKit → Prompt Library: 개발자가 명시적으로 요청할 때 기존 프롬프트를 참고 문서로 추천(자동 실행 금지).
-- DevKit → Design Atlas: UI 설계 과업에서 디자인 시안을 참고 자료로 연결(프로젝트 코드에 자동 적용 금지).
-- DevKit 자체 저장소 및 평가 로그는 독립 운영하며 공개 허브로 복사하지 않습니다.
+- 콘텐츠 탐색 서비스와 실행 환경을 결합하면 배포 권한과 보안 경계가 뒤섞입니다.
+- DevKit은 비공개 저장소와 독립 버전·CI를 유지합니다.
+- 추후 선택형 연결을 할 수는 있습니다. 예: DevKit이 문제 진단 과정에서 DevBlog 검색 링크 또는 Design Atlas 시안을 **참고 자료로만** 제안.
+- Prompt Library와 연결하더라도 사용자의 명시적 권한 범위 안에서만 동작해야 하며, 외부 프롬프트를 자동으로 명령 실행하지 않습니다.
 
-**향후 재검토 조건:** 안정적인 검색 API, 소스 라이선스/권한 검증, 비신뢰 콘텐츠를 프롬프트 명령으로 실행하지 않는 안전 경계, 독립 CI 성적이 확보되면 **연결 플러그인 형태**로 실험할 수 있습니다. 저장소를 물리적으로 합칠 필요는 없습니다.
+## 6. 검증 및 릴리스 기준
 
-## 6. 검증 방법과 릴리스 게이트
-
-### 단위/구문 테스트
+### 자동 테스트
 
 ```bash
 python -m unittest discover -s tests -p 'test_*.py'
 node --check public/hub.js
+node --check /tmp/devblog-search.js  # search.html의 script를 추출한 뒤 검사
 ```
 
-### 실제 원본을 이용한 색인 생성
+### 실제 공개 자료 생성
 
 ```bash
-git clone --depth 1 https://github.com/lealle/prompt-library.git _sources/prompt-library
 git clone --depth 1 https://github.com/lealle/design-atlas.git _sources/design-atlas
 python scripts/build_resource_hub.py
-python -c "import json; d=json.load(open('public/hub-data.json',encoding='utf-8')); assert d['counts']['prompts'] > 0; assert d['counts']['designs'] == 100; assert d['counts']['experiences'] == 42"
-python -m http.server --directory public 8000
+python -c "import json; d=json.load(open('public/hub-data.json',encoding='utf-8')); assert d['schema']==2 and d['counts']['designs']==100 and d['counts']['experiences']==42; assert all(x['kind']!='prompt' for x in d['items'])"
+python -m http.server 8000 --directory public
 ```
 
-브라우저 `http://localhost:8000/hub.html`에서 검색, 유형·카테고리 필터, 복사, GitHub 출처, 디자인 미리보기, 모바일/키보드 탐색과 검색어 전달을 확인합니다.
+브라우저에서 `http://localhost:8000/hub.html`을 열고 검색, 필터, 실제 시안 링크, 모바일/키보드 조작, 검색어 전달, 비공개 저장소 접근 시 GitHub 권한 검증을 확인합니다.
 
-**병합 전 필수:** PR CI 녹색 및 정적 페이지 데이터 파일 생성 확인. **배포 후 별도:** 실제 Pages URL HTTP 200, 색인 로드, 검색어 프리필, 다른 저장소 링크, 모바일 확인. 자동화가 성공했다는 사실만으로 브라우저 배포를 확인한 것으로 간주하지 않습니다.
+**완료 정의:** PR CI 통과, 병합, Pages 배포, 실제 외부 링크와 브라우저 동작 확인을 구분해 기록합니다. CI 성공만으로 Pages 실배포를 주장하지 않습니다.
 
-### 장애 및 롤백
+## 7. 한계·후속 작업
 
-- 외부 리포지토리 checkout/파싱 실패: 워크플로 실패로 알리고 배포·데이터 교체를 진행하지 않습니다.
-- 허브 색인만 손상: 이전 정상 `hub-data.json`으로 되돌리거나 허브 링크를 임시로 숨깁니다. DevBlog RSS 수집 및 검색은 독립적으로 유지합니다.
-- 전체 디자인/프롬프트 통합이 불필요해짐: `hub.html` 링크와 관련 허브 빌드 단계만 되돌리면 됩니다. 원본 세 저장소의 코드/데이터를 수정하지 않았습니다.
+1. DevBlog 수년치 색인을 허브에 중복 다운로드하지 않도록 현행 독립 검색 유지; 추후 연관 검색 개선.
+2. 공개 디자인 메타데이터와 사이트 시안의 변경 시점을 비교하는 버전/깨진 링크 검증 도입.
+3. 비공개 Prompt Library까지 한 화면에서 보고 싶다면 **비공개 로컬 앱 또는 인증된 별도 서비스** 설계를 먼저 결정. 공개 GitHub Pages로 전문을 전송하는 방법은 금지.
+4. DevKit 연결은 플러그인 내 권한 범위·비신뢰 프롬프트 취급·검증 근거 확보 후 선택적으로 시험.
+5. 실제 사용자 과업 측정(문서 발견, 시안 선택, 관련성, 모바일 지연)에 근거하여 레포 물리적 통합 필요성 재검토.
 
-## 7. 후속 개선(이번 PR의 완료 범위 아님)
-
-1. **R1 검색 의미 품질**: 기술 동의어, 카테고리 오분류/중복 측정, 자주 쓰는 검색 품질 평가.
-2. **R2 더 강한 연결**: 기술 문서 ↔ 관련 프롬프트 ↔ 화면 시안 사이에 근거 있는 추천 규칙 수립.
-3. **R3 색인 최적화**: 본문 로딩 분리, 분할 인덱스, 모바일 성능 예산 설정.
-4. **R4 콘텐츠 버전 고정**: Git SHA provenance·업데이트 시각·깨진 링크 확인 및 실패 알림 추가.
-5. **R5 디자인 적용 실험**: 단순 시안 보기에서 선택한 디자인 토큰의 프로젝트 적용 가이드를 제공(자동 수정은 별도 승인).
-6. **R6 DevKit 연결 검증**: 현업 문제 진단 중 자료 추천 성공률과 오추천 위험 평가. 도구 실행과 자료 소비는 계속 분리.
-
-위 항목은 계획이며 이번 작업의 구현·검증 완료 주장에 포함되지 않습니다.
+여기 적힌 후속 항목은 **계획**이며 이번 PR의 구현 완료 항목이 아닙니다.
