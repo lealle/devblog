@@ -11,17 +11,17 @@ DB 서버가 없다. 상태는 전부 저장소 안의 파일에 있고, GitHub 
 ## 통합 자료 허브 (Dev Resource Hub)
 
 - [통합 화면](https://lealle.github.io/devblog/hub.html) · [전체 기술 문서 검색](https://lealle.github.io/devblog/search.html)
-- [Design Atlas](https://github.com/lealle/design-atlas)와 [Prompt Library](https://github.com/lealle/prompt-library)의 **공개 자료만** 빌드 시 가져옵니다.
-- 프롬프트는 이 화면에서 검색·원문 미리보기·복사할 수 있습니다. 디자인 시안은 실제 Design Atlas 화면으로 연결합니다.
-- 기술 블로그 원문은 기존 수집·전체 검색 화면에서 열고, 통합 화면에서 같은 검색어를 넘길 수 있습니다.
-- 빌드 절차, 데이터 계약, 예외 상황, DevKit 분리 판단은 [통합 설계 문서](docs/RESOURCE_HUB_INTEGRATION_2026-11-06.md)를 확인하세요.
-- **DevKit은 별도 비공개 Claude Code 플러그인입니다.** 실행 도구를 공개 웹 페이지에 복제하거나 결합하지 않습니다.
+- 공개 저장소 [Design Atlas](https://github.com/lealle/design-atlas)의 100개 시안과 42개 체험형 디자인을 검색할 수 있습니다.
+- [Prompt Library](https://github.com/lealle/prompt-library)는 **비공개**입니다. 사이트에는 프롬프트 제목·본문·색인을 복사하거나 게시하지 않고, GitHub 접근 권한이 있는 사용자만 원본으로 이동할 수 있습니다.
+- DevBlog의 기술 문서 검색에는 허브의 검색어를 전달할 수 있습니다. 기존 데이터 수집·검색 방식은 유지합니다.
+- **DevKit도 비공개 실행 플러그인**이므로 공개 웹 페이지와 코드를 결합하지 않습니다.
+- 구현 범위, 비공개 데이터 차단, 배포·테스트 가이드는 [통합 설계 문서](docs/RESOURCE_HUB_INTEGRATION_2026-11-06.md)를 확인하세요.
 
-\`\`\`bash
-python scripts/build_resource_hub.py --prompts-root _sources/prompt-library --design-index _sources/design-atlas/docs/designs.json
+```bash
+python scripts/build_resource_hub.py --design-index _sources/design-atlas/docs/designs.json
 python -m unittest discover -s tests -p 'test_*.py'
 node --check public/hub.js
-\`\`\`
+```
 
 ## 빠른 시작
 
