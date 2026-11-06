@@ -133,27 +133,33 @@ let region = 'ALL';
 
 function apply() {
   const term = q.value.trim().toLowerCase();
+  let visible = 0;
   items.forEach(el => {
     const okR = region === 'ALL' || el.dataset.region === region;
     const okQ = !term || el.dataset.search.includes(term);
-    el.style.display = (okR && okQ) ? '' : 'none';
+    el.hidden = !(okR && okQ);
+    if (!el.hidden) visible++;
   });
   document.querySelectorAll('.day').forEach(d => {
     let n = d.nextElementSibling, any = false;
     while (n && n.classList.contains('item')) {
-      if (n.style.display !== 'none') any = true;
+      if (!n.hidden) any = true;
       n = n.nextElementSibling;
     }
-    d.style.display = any ? '' : 'none';
+    d.hidden = !any;
   });
+  document.getElementById('status').textContent = visible + '건 표시 / 최근 전체 ' + items.length + '건';
+  document.getElementById('empty').hidden = visible !== 0;
 }
 q.addEventListener('input', apply);
 document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
   document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
   t.classList.add('on');
+  document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-pressed', String(x === t)));
   region = t.dataset.region;
   apply();
 }));
+apply();
 """
 
 
@@ -212,20 +218,33 @@ def main() -> int:
     parts = [
         "<!doctype html><html lang='ko'><head><meta charset='utf-8'>",
         "<meta name='viewport' content='width=device-width,initial-scale=1'>",
-        "<title>기술블로그 모아보기</title>",
-        f"<style>{CSS}</style></head><body>",
-        "<p class='eyebrow'>DEV / READING ROOM</p>",
-        "<h1>기술블로그 모아보기</h1>",
-        "<p class='intro'>기업과 기관의 기술 경험을 읽고, 다음 문제를 풀 단서를 찾습니다.</p>",
-        "<p><a href='hub.html'>개발 자료 통합 허브 →</a> · <a href='search.html'>전체 수집 문서 검색 →</a></p>",
-        f"<div class='meta'>최근 {DAYS}일 · {len(recent)}건 · "
-        f"누적 {len(articles)}건 · 갱신 "
-        f"{datetime.now().strftime('%Y-%m-%d %H:%M')} UTC</div>",
-        "<input id='q' aria-label='제목·회사·요약 검색' placeholder='제목·회사·요약 검색'>",
-        "<div class='tabs'>"
-        "<button class='tab on' data-region='ALL'>전체</button>"
-        "<button class='tab' data-region='KR'>국내</button>"
-        "<button class='tab' data-region='EN'>해외</button></div>",
+        "<meta name='description' content='기업과 기관의 기술 블로그 글을 살펴보고 문제 해결 사례를 탐색합니다'>",
+        "<title>DevBlog · 기술을 읽는 공간</title>",
+        f"<style>{CSS}</style><link rel='stylesheet' href='blog-ui.css'></head><body class='reading-view'>",
+        "<a class='skip-link' href='#feed'>기사 목록으로 건너뛰기</a>",
+        "<header class='site-top'><a class='site-brand' href='index.html'>LEALLE <em>· DEV BLOG</em></a>",
+        "<nav aria-label='주요 탐색'><a href='index.html' aria-current='page'>최신 글</a>",
+        "<a href='search.html'>전체 검색</a><a href='hub.html'>통합 자료 허브</a></nav></header>",
+        "<section class='editorial-hero' aria-labelledby='page-title'><div class='hero-copy'>",
+        "<p class='eyebrow'>ENGINEERING / READING ROOM</p>",
+        "<h1 id='page-title'>기술을 읽고,<br>해결의 실마리를 찾다.</h1>",
+        "<p class='intro'>기업·기관의 실제 엔지니어링 경험을 날짜순으로 모았습니다. 관심 기술과 문제를 찾아 읽고, 실무에 적용할 근거를 확인하세요.</p>",
+        "</div><div class='hero-stats' aria-label='수집 현황'>",
+        f"<div class='stat'><strong>{len(recent):,}</strong><span>최근 {DAYS}일 기사</span></div>",
+        f"<div class='stat'><strong>{len(articles):,}</strong><span>누적 수집</span></div>",
+        "</div></section>",
+        "<p class='updated-at'>최근 생성: " + datetime.now().strftime("%Y-%m-%d %H:%M") + " UTC · 원문은 각 출처에서 확인할 수 있습니다.</p>",
+        "<div class='quick-nav'><a href='search.html'>전체 기술 문서 검색 ↗</a><a href='hub.html'>디자인·자료 허브 ↗</a></div>",
+        "<section class='finder' aria-label='최신 기사 필터'>",
+        "<label for='q'>제목·기업·요약에서 찾기</label>",
+        "<input id='q' type='search' aria-label='최근 기사 검색' placeholder='예: 성능 최적화, 장애, 동시성'>",
+        "<div class='tabs' role='group' aria-label='기사 지역'>",
+        "<button type='button' class='tab on' data-region='ALL' aria-pressed='true'>전체 지역</button>",
+        "<button type='button' class='tab' data-region='KR' aria-pressed='false'>국내</button>",
+        "<button type='button' class='tab' data-region='EN' aria-pressed='false'>해외</button></div>",
+        "<p class='search-hint'>최근 수집한 글만 검색합니다. 과거 기록까지 찾으려면 ‘전체 기술 문서 검색’을 선택하세요.</p></section>",
+        "<div class='results-head'><h2>최근 수집한 글</h2><p id='status' role='status' aria-live='polite'></p></div>",
+        "<main id='feed' class='feed-list' aria-label='최근 기술 블로그 글'>",
     ]
 
     current_day = None
@@ -259,6 +278,7 @@ def main() -> int:
             + "</div>"
         )
 
+    parts.append("</main><p class='empty-results' id='empty' hidden>조건에 맞는 글이 없습니다. 검색어 또는 지역을 바꿔 보세요.</p>")
     parts.append(f"<script>{JS}</script></body></html>")
 
     dated, past_count = write_output("\n".join(parts))
