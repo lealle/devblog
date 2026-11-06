@@ -217,7 +217,7 @@ def main() -> int:
         "<p class='eyebrow'>DEV / READING ROOM</p>",
         "<h1>기술블로그 모아보기</h1>",
         "<p class='intro'>기업과 기관의 기술 경험을 읽고, 다음 문제를 풀 단서를 찾습니다.</p>",
-        "<p><a href='search.html'>전체 수집 문서 검색 →</a></p>",
+        "<p><a href='hub.html'>개발 자료 통합 허브 →</a> · <a href='search.html'>전체 수집 문서 검색 →</a></p>",
         f"<div class='meta'>최근 {DAYS}일 · {len(recent)}건 · "
         f"누적 {len(articles)}건 · 갱신 "
         f"{datetime.now().strftime('%Y-%m-%d %H:%M')} UTC</div>",
