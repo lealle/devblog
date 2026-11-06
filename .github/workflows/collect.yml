@@ -32,6 +32,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout prompt catalog
+        uses: actions/checkout@v4
+        with:
+          repository: lealle/prompt-library
+          ref: main
+          path: _sources/prompt-library
+          persist-credentials: false
+          sparse-checkout: |
+            prompts
+      - name: Checkout design catalog
+        uses: actions/checkout@v4
+        with:
+          repository: lealle/design-atlas
+          ref: main
+          path: _sources/design-atlas
+          persist-credentials: false
+          sparse-checkout: |
+            docs/designs.json
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -54,6 +73,7 @@ jobs:
         run: |
           python scripts/render.py
           python scripts/build_search_index.py
+          python scripts/build_resource_hub.py
 
       - name: 커밋
         run: |
