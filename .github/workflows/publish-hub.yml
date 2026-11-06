@@ -1,0 +1,59 @@
+name: publish-resource-hub
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-hub.yml"
+      - "public/hub.html"
+      - "public/hub.css"
+      - "public/hub.js"
+      - "public/hub-data.json"
+      - "public/search.html"
+      - "scripts/render.py"
+      - "scripts/build_resource_hub.py"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render latest blog navigation
+        run: |
+          python scripts/render.py
+          python scripts/build_search_index.py
+      - name: Validate public index privacy boundary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("public/hub-data.json")
+          data=json.loads(p.read_text(encoding="utf-8"))
+          assert data["schema"] == 2
+          assert len(data["items"]) == 142
+          assert all(item["kind"] in {"design", "experience"} for item in data["items"])
+          assert set(data["source"]) == {"designs"}
+          assert Path("public/hub.html").exists()
+          assert Path("public/index.html").exists()
+          assert Path("public/search-index.json").exists()
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4
