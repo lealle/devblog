@@ -10,15 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Checkout prompt catalog
-        uses: actions/checkout@v4
-        with:
-          repository: lealle/prompt-library
-          ref: main
-          path: _sources/prompt-library
-          persist-credentials: false
-          sparse-checkout: |
-            prompts
       - name: Checkout design catalog
         uses: actions/checkout@v4
         with:
@@ -46,4 +37,4 @@ jobs:
           python scripts/build_search_index.py
           python scripts/build_resource_hub.py
           python -c "import json; from pathlib import Path; p=Path('public/search-index.json'); a=json.loads(p.read_text()); assert isinstance(a,list); assert Path('public/search.html').exists(); print(len(a), 'articles indexed')"
-          python -c "import json; from pathlib import Path; data=json.loads(Path('public/hub-data.json').read_text(encoding='utf-8')); assert len(data['items'])>=200; assert len(data['source'])==2; print(data['counts'])"
+          python -c "import json; from pathlib import Path; data=json.loads(Path('public/hub-data.json').read_text(encoding='utf-8')); assert len(data['items'])>=142; assert len(data['source'])==1; assert all(x['kind']!='prompt' for x in data['items']); print(data['counts'])"
