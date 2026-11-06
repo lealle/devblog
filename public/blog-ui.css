@@ -1,0 +1,92 @@
+/* Shared DevBlog reading/search visual system; loaded after legacy styles. */
+:root{--paper:#f5f7f5;--surface:#ffffff;--ink:#172b29;--muted:#536760;--line:#d9e3de;--brand:#14654f;--soft:#e6f1e9;--accent:#aa632f;--focus:#14654f}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body.reading-view,body.search-view{max-width:1200px;margin:0 auto;padding:0 28px 90px;background:var(--paper);color:var(--ink);font-size:15px;line-height:1.65}
+body .skip-link{position:absolute;left:15px;top:-80px;z-index:100;background:var(--brand);color:#fff;padding:10px 16px}
+body .skip-link:focus{top:10px}
+.site-top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 4px;border-bottom:1px solid var(--line)}
+.site-top .site-brand{font-size:16px;font-weight:850;letter-spacing:-.035em;text-decoration:none;white-space:nowrap;color:var(--ink)}
+.site-brand em{font-style:normal;color:var(--brand)}
+.site-top nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.site-top nav a{font-size:13px;font-weight:700;padding:10px 13px;text-decoration:none;border-radius:8px;color:var(--ink)}
+.site-top nav a:hover,.site-top nav a[aria-current="page"]{background:var(--soft);color:var(--brand);text-decoration:none}
+.editorial-hero{padding:52px 0 42px;display:flex;justify-content:space-between;align-items:end;gap:42px;border-bottom:1px solid var(--line)}
+.editorial-hero .hero-copy{max-width:740px}
+body .eyebrow{color:var(--brand);margin:0 0 12px;font-size:12px;letter-spacing:.15em}
+.editorial-hero h1{font-size:clamp(38px,5.8vw,68px);line-height:1.16;letter-spacing:-.07em;margin:0;font-weight:820}
+.editorial-hero .intro{font-size:16px;line-height:1.8;margin:19px 0 0;max-width:670px;color:var(--muted)}
+.hero-stats{display:flex;gap:16px;flex-shrink:0}
+.hero-stats .stat{min-width:128px;border-left:1px solid var(--line);padding-left:17px}
+.hero-stats strong{display:block;font-size:28px;line-height:1.2;letter-spacing:-.04em;color:var(--brand);font-variant-numeric:tabular-nums}
+.hero-stats span{display:block;margin-top:7px;font-size:12px;color:var(--muted)}
+.updated-at{font-size:12px;color:var(--muted);margin:11px 0 0}
+.quick-nav{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:24px 0 12px}
+.quick-nav a,.quick-link{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:9px;padding:10px 14px;background:var(--surface);font-size:13px;font-weight:700;text-decoration:none;color:var(--brand)}
+.quick-nav a:hover{border-color:var(--brand);background:var(--soft);text-decoration:none}
+.finder{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin:22px 0 26px}
+.finder label{font-weight:750;font-size:13px;display:block;margin-bottom:10px}
+.finder input#q{width:100%;font-size:16px;background:var(--paper);border:1px solid #cbd8d0;border-radius:8px;padding:14px 16px;min-height:51px}
+.finder .search-hint{font-size:12px;color:var(--muted);margin:10px 0 0}
+.finder .tabs{margin:18px 0 2px;gap:8px}
+.finder .tab{background:var(--paper);border-color:var(--line);padding:9px 18px;font-size:13px;font-weight:750;border-radius:8px}
+.finder .tab.on,.finder .tab[aria-pressed="true"]{background:var(--brand);color:#fff;border-color:var(--brand)}
+body .meta,body #status{font-size:12px;color:var(--muted)}
+.results-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:32px 0 10px}
+.results-head h2{font-size:24px;letter-spacing:-.04em;line-height:1.35;margin:0}
+#status{margin:0;font-variant-numeric:tabular-nums}
+.feed-list .day{margin:32px 0 14px;border-bottom:0;border-left:4px solid var(--brand);padding:2px 0 2px 12px;font-size:14px;color:var(--brand);font-weight:850}
+.feed-list .item,body.search-view #results .item{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin:0 0 11px;padding:21px 23px;transition:border-color .15s}
+.feed-list .item:hover,body.search-view #results .item:hover{border-color:var(--brand)}
+.feed-list .item a,body.search-view #results .item a{display:inline;color:var(--ink);font-size:18px;font-weight:760;line-height:1.5;letter-spacing:-.025em;text-decoration:none}
+.feed-list .item a:hover,body.search-view #results .item a:hover{color:var(--brand);text-decoration:underline}
+.feed-list .item .src{font-size:12px;margin-top:9px;color:var(--brand);font-weight:700}
+.feed-list .item .sum,body.search-view #results .item .summary{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.75}
+.feed-list .item .late{font-size:12px;color:var(--muted)}
+.feed-list .item .hit{color:var(--accent)}
+.empty-results{padding:34px;border:1px dashed var(--line);background:var(--surface);border-radius:12px;color:var(--muted);text-align:center}
+.archive{margin:50px 0 0;padding:21px;border:1px solid var(--line);border-radius:12px;background:var(--surface);align-items:center}
+.archive span{font-weight:800;color:var(--ink)}
+.archive a{font-size:12px}
+body.search-view .search-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0}
+body.search-view .search-controls .field{display:block;margin:0}
+body.search-view .search-controls .field label{display:block;color:var(--muted);margin-bottom:7px;font-weight:700;font-size:12px}
+body.search-view .search-controls select{display:block;width:100%;padding:11px 12px;border:1px solid var(--line);background:var(--paper);border-radius:8px;min-height:48px;font-size:14px}
+body.search-view .mode{margin:15px 0 2px;gap:8px}
+body.search-view .mode button{border-radius:8px;padding:10px 17px;font-size:13px;font-weight:750;background:var(--paper)}
+body.search-view .mode button[aria-pressed="true"]{background:var(--brand);color:#fff;border-color:var(--brand)}
+body.search-view #results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:stretch}
+body.search-view #results .item{margin:0}
+body.search-view #results .item .meta{margin:10px 0 3px;line-height:1.6;overflow-wrap:anywhere}
+body.search-view .path{margin:20px 0;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:22px}
+body.search-view .path h2{margin:0 0 13px;font-size:19px}
+body.search-view #more{margin:30px auto;padding:11px 28px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-weight:750;display:block}
+body.search-view .suggestions{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+body.search-view .suggestions button{background:var(--soft);color:var(--brand);border:1px solid var(--line);border-radius:999px;font-size:12px;font-weight:750;padding:7px 12px;min-height:36px}
+body.search-view .suggestions button:hover{border-color:var(--brand)}
+:where(body.reading-view,body.search-view) :where(a,input,button,select):focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+[hidden]{display:none!important}
+@media(max-width:850px){.editorial-hero{flex-direction:column;align-items:flex-start;gap:23px;padding:44px 0 32px}.hero-stats{width:100%}.hero-stats .stat{flex:1}.search-view #results{grid-template-columns:1fr}}
+@media(max-width:640px){
+ body.reading-view,body.search-view{padding:0 16px 58px}
+ .site-top{padding:16px 0;flex-wrap:wrap;gap:8px}
+ .site-top nav{gap:2px;width:100%}
+ .site-top nav a{padding:8px 10px;font-size:12px}
+ .editorial-hero{padding:32px 0 22px}
+ .editorial-hero .intro{font-size:14px}
+ .hero-stats strong{font-size:24px}
+ .finder{padding:16px;margin:16px 0}
+ .results-head{align-items:flex-start;flex-direction:column;gap:4px}
+ .results-head h2{font-size:21px}
+ .feed-list .item,body.search-view #results .item{padding:18px}
+ .feed-list .item a,body.search-view #results .item a{font-size:16px}
+ body.search-view .search-controls{grid-template-columns:1fr}
+ body.search-view #results{grid-template-columns:1fr}
+}
+@media(prefers-color-scheme:dark){
+ :root{--paper:#11221d;--surface:#19312a;--ink:#eaf4ed;--muted:#bdd0c4;--line:#3f5b4e;--brand:#91dbc0;--soft:#234438;--accent:#e9b37e;--focus:#91dbc0}
+ .finder .tab.on,.finder .tab[aria-pressed="true"],body.search-view .mode button[aria-pressed="true"]{color:#10251d}
+ .quick-nav a{background:var(--surface)}
+ .finder input#q,body.search-view .search-controls select{background:var(--surface);color:var(--ink);border-color:var(--line)}
+}
+@media(prefers-reduced-motion:reduce){.feed-list .item,body.search-view #results .item{transition:none}}
