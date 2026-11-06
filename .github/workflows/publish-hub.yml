@@ -7,6 +7,8 @@ on:
       - ".github/workflows/publish-hub.yml"
       - "public/hub.html"
       - "public/hub.css"
+      - "public/hub-refresh.css"
+      - "public/blog-ui.css"
       - "public/hub.js"
       - "public/hub-data.json"
       - "public/search.html"
@@ -51,6 +53,11 @@ jobs:
           assert Path("public/hub.html").exists()
           assert Path("public/index.html").exists()
           assert Path("public/search-index.json").exists()
+          assert Path("public/blog-ui.css").exists()
+          assert Path("public/hub-refresh.css").exists()
+          html=Path("public/hub.html").read_text(encoding="utf-8")
+          assert "preview-dialog" in html and "hub-refresh.css" in html
+          assert "blog-ui.css" in Path("public/index.html").read_text(encoding="utf-8")
           PY
       - uses: actions/upload-pages-artifact@v3
         with:
