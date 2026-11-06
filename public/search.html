@@ -80,7 +80,7 @@ button:hover { border-color: var(--brand); }
 }
 </style></head><body>
 <p class="eyebrow">DEV / READING ROOM</p>
-<header><h1>전체 문서 검색</h1><a href="./index.html">최신 글로 돌아가기</a></header>
+<header><h1>전체 문서 검색</h1><div><a href="./hub.html">통합 자료 허브</a> · <a href="./index.html">최신 글로 돌아가기</a></div></header>
 <p class="intro">수집된 과거 문서까지 제목·회사·요약에서 검색합니다. 원문은 출처 사이트에서 확인할 수 있습니다.</p>
 <div class="controls"><input id="q" type="search" placeholder="예: JPA N+1, 장애, Kubernetes" aria-label="검색어">
 <select id="region" aria-label="지역"><option value="">전체 지역</option><option value="KR">국내</option><option value="EN">해외</option></select>
@@ -158,6 +158,8 @@ function append(){
 }
 $("more").addEventListener("click",append);
 for(const id of ["q","region","topic","sort"])$(id).addEventListener(id==="q"?"input":"change",search);
+const initialQuery = new URLSearchParams(window.location.search).get("q");
+if (initialQuery) $("q").value = initialQuery.slice(0, 200);
 fetch("./search-index.json").then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json();}).then(data=>{
   if(!Array.isArray(data))throw Error("Invalid index");
   articles=data;search();

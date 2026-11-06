@@ -10,6 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Checkout design catalog
+        uses: actions/checkout@v4
+        with:
+          repository: lealle/design-atlas
+          ref: main
+          path: _sources/design-atlas
+          persist-credentials: false
+          sparse-checkout: |
+            docs/designs.json
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -20,8 +30,11 @@ jobs:
         run: |
           python -c "from pathlib import Path; s=Path('public/search.html').read_text(); Path('/tmp/devblog-search.js').write_text(s.split('<script>',1)[1].split('</script>',1)[0])"
           node --check /tmp/devblog-search.js
+          node --check public/hub.js
       - name: Build smoke test
         run: |
           python scripts/render.py
           python scripts/build_search_index.py
+          python scripts/build_resource_hub.py
           python -c "import json; from pathlib import Path; p=Path('public/search-index.json'); a=json.loads(p.read_text()); assert isinstance(a,list); assert Path('public/search.html').exists(); print(len(a), 'articles indexed')"
+          python -c "import json; from pathlib import Path; data=json.loads(Path('public/hub-data.json').read_text(encoding='utf-8')); assert len(data['items'])>=142; assert len(data['source'])==1; assert all(x['kind']!='prompt' for x in data['items']); print(data['counts'])"

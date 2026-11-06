@@ -8,6 +8,21 @@ DB 서버가 없다. 상태는 전부 저장소 안의 파일에 있고, GitHub 
 # 만든 이유
 국내외 기업·기관들의 프로그래밍 능력을 배우고자 새 글을 매일 모아 공부하기 위하여 만들었음.
 
+## 통합 자료 허브 (Dev Resource Hub)
+
+- [통합 화면](https://lealle.github.io/devblog/hub.html) · [전체 기술 문서 검색](https://lealle.github.io/devblog/search.html)
+- 공개 저장소 [Design Atlas](https://github.com/lealle/design-atlas)의 100개 시안과 42개 체험형 디자인을 검색할 수 있습니다.
+- [Prompt Library](https://github.com/lealle/prompt-library)는 **비공개**입니다. 사이트에는 프롬프트 제목·본문·색인을 복사하거나 게시하지 않고, GitHub 접근 권한이 있는 사용자만 원본으로 이동할 수 있습니다.
+- DevBlog의 기술 문서 검색에는 허브의 검색어를 전달할 수 있습니다. 기존 데이터 수집·검색 방식은 유지합니다.
+- **DevKit도 비공개 실행 플러그인**이므로 공개 웹 페이지와 코드를 결합하지 않습니다.
+- 구현 범위, 비공개 데이터 차단, 배포·테스트 가이드는 [통합 설계 문서](docs/RESOURCE_HUB_INTEGRATION_2026-11-06.md)를 확인하세요.
+
+```bash
+python scripts/build_resource_hub.py --design-index _sources/design-atlas/docs/designs.json
+python -m unittest discover -s tests -p 'test_*.py'
+node --check public/hub.js
+```
+
 ## 빠른 시작
 
 ```bash
