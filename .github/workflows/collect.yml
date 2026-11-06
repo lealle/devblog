@@ -32,15 +32,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Checkout prompt catalog
-        uses: actions/checkout@v4
-        with:
-          repository: lealle/prompt-library
-          ref: main
-          path: _sources/prompt-library
-          persist-credentials: false
-          sparse-checkout: |
-            prompts
       - name: Checkout design catalog
         uses: actions/checkout@v4
         with:
